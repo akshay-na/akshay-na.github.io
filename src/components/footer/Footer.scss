@@ -1,0 +1,21 @@
+@import "../../_globalColor";
+
+.footer-text {
+  text-align: center;
+  color: $subTitle !important;
+}
+
+.footer-text-p {
+  text-align: center;
+  color: $subTitle !important;
+  font-size: 14px;
+}
+
+.dark-mode {
+  color: $textColorDark !important;
+}
+
+.footer-div {
+  margin-top: 2rem;
+  padding-bottom: 1rem;
+}
