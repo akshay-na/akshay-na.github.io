@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import Headroom from "react-headroom";
 import "./Header.scss";
 import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
@@ -12,7 +12,7 @@ import {
 } from "../../portfolio";
 
 function Header() {
-  const {isDark} = useContext(StyleContext);
+  const { isDark } = useContext(StyleContext);
   const viewHome = greeting.displayGreeting;
   const viewExperience = workExperiences.display;
   const viewEducation = educationInfo.display;
@@ -31,7 +31,7 @@ function Header() {
         <label
           className="menu-icon"
           htmlFor="menu-btn"
-          style={{color: "white"}}
+          style={{ color: "white" }}
         >
           <span className={isDark ? "navicon navicon-dark" : "navicon"} />
         </label>
@@ -51,13 +51,11 @@ function Header() {
               <a href="#experience">Experience</a>
             </li>
           )}
-
           {viewEducation && (
             <li>
-              <a href="#Education">Education</a>
+              <a href="#education">Education</a>
             </li>
           )}
-
           {viewAchievement && (
             <li>
               <a href="#achievements">Achievements</a>
