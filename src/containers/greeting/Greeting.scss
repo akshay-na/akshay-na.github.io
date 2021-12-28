@@ -99,10 +99,17 @@
   .greeting-text-p {
     font-size: 20px;
   }
+  .profile-details-role {
+  height: 100%;
+  }
 }
 @media (max-width: 768px) {
   .button-greeting-div {
     justify-content: space-around;
+  }
+  .profile-details-role {
+  height: 100%;
+  text-align: center;
   }
   .greeting-text {
     font-size: 30px;
