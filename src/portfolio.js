@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import {Icon} from "@iconify/react";
+import { Icon } from "@iconify/react";
 
 // Summary And Greeting Section
 
@@ -26,9 +26,15 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/akshay-na",
-  linkedin: "www.linkedin.com/in/akshay-na",
+  linkedin: "https://www.linkedin.com/in/akshay-na",
   gmail: "akshayna04@gmail.com",
   medium: "https://medium.com/@short_saga",
+  instagram: "",
+  twitter: "",
+  facebook: "",
+  kaggle: "",
+  gitlab: "",
+  stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
