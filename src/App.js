@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, {useState, useEffect} from "react";
 import "./App.scss";
 import Main from "./containers/Main";
 import Preloader from "../src/components/preloader/Pre";
