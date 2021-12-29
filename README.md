@@ -1,12 +1,8 @@
 # Software Developer Portfolio ⚡️
 
-## A clean, beautiful and responsive portfolio for Developers!
+## A clean, beautiful and responsive portfolio for Developers
 
-<p align="center">
-  <kbd>
-<img src="/src/assets/images/sample.gif"></img>
-  </kbd>
-</p>
+![Alt text](/src/assets/images/sample.gif)
 
 Just change `src/portfolio.js` to get your personal portfolio. Customize portfolio theme by using your own color scheme globally in the `src/_globalColor.scss` file. Feel free to use it as-is or personalize it as much as you want.
 
@@ -57,10 +53,10 @@ From your command line, clone and run developerFolio:
 
 ```bash
 # Clone this repository
-git clone https://github.com/akshay-na/personal-portfolio.git
+git clone https://github.com/akshay-na/akshay-na.github.io
 
 # Go into the repository
-cd personal-portfolio
+cd akshay-na.github.io
 
 # Setup default environment variables
 
@@ -115,9 +111,9 @@ If you are seeing something as shown below, follow these [instructions](https://
 
 If the above solution still doesn't work, visit the [wiki page](https://github.com/saadpasta/developerFolio/wiki/Github-Setup-For-Open-Source-Projects).
 
-## Change and customize every section according to your need.
+## Change and customize every section according to your need
 
-#### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio.
+#### Personalize page content in `/src/portfolio.js` & modify it as per your need. You will also need to modify `index.html` to change the title and metadata to provide accurate SEO for your personal portfolio
 
 #### To change the roles, please modify the `src/containers/greeting/greetings.js`
 
