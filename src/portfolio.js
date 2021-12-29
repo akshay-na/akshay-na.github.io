@@ -296,6 +296,10 @@ const achievementSection = {
       image: require("./assets/images/AiWorkshop.jpg"),
       footerLink: [
         {
+          name: "Certification",
+          url: ""
+        },
+        {
           name: "Participation",
           url: ""
         }
