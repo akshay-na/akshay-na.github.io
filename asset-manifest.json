@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.689ada41.css",
-    "main.js": "/static/js/main.c0dd5ddd.js",
+    "main.js": "/static/js/main.a4068397.js",
     "static/css/141.27c49f1b.chunk.css": "/static/css/141.27c49f1b.chunk.css",
     "static/js/141.28884d4b.chunk.js": "/static/js/141.28884d4b.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
-    "static/js/769.5aa372c0.chunk.js": "/static/js/769.5aa372c0.chunk.js",
+    "static/js/769.67f3a928.chunk.js": "/static/js/769.67f3a928.chunk.js",
     "static/media/sbclogo.png": "/static/media/sbclogo.0619295a1af7498b0659.png",
     "static/media/AiWorkshop.jpg": "/static/media/AiWorkshop.65059c49e0c9441942b7.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -20,14 +20,14 @@
     "static/media/CBD.PNG": "/static/media/CBD.f6688dffdeed90895967.PNG",
     "index.html": "/index.html",
     "main.689ada41.css.map": "/static/css/main.689ada41.css.map",
-    "main.c0dd5ddd.js.map": "/static/js/main.c0dd5ddd.js.map",
+    "main.a4068397.js.map": "/static/js/main.a4068397.js.map",
     "141.27c49f1b.chunk.css.map": "/static/css/141.27c49f1b.chunk.css.map",
     "141.28884d4b.chunk.js.map": "/static/js/141.28884d4b.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
-    "769.5aa372c0.chunk.js.map": "/static/js/769.5aa372c0.chunk.js.map"
+    "769.67f3a928.chunk.js.map": "/static/js/769.67f3a928.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.689ada41.css",
-    "static/js/main.c0dd5ddd.js"
+    "static/js/main.a4068397.js"
   ]
 }
