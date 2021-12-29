@@ -3,7 +3,7 @@
 // To change portfolio colors globally go to the  _globalColor.scss file
 
 import emoji from "react-easy-emoji";
-import { Icon } from "@iconify/react";
+import {Icon} from "@iconify/react";
 
 // Summary And Greeting Section
 
