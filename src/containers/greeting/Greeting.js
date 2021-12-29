@@ -6,8 +6,7 @@ import landingPerson from "../../assets/lottie/landingPerson";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
 import Button from "../../components/button/Button";
-import Typical from "react-typical";
-
+import Typewriter from "typewriter-effect";
 import {illustration, greeting} from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
 
@@ -40,16 +39,17 @@ export default function Greeting() {
                   {" "}
                   <h1>
                     {" "}
-                    <Typical
-                      loop={Infinity}
-                      steps={[
-                        `Blockchain Developer`,
-                        1500,
-                        "Full-Stack Developer",
-                        1500,
-                        "Crypto Enthusiasts ₿",
-                        1500
-                      ]}
+                    <Typewriter
+                      options={{
+                        strings: [
+                          "Blockchain Developer",
+                          "Full-Stack Developer",
+                          "Crypto Enthusiasts ₿"
+                        ],
+                        autoStart: true,
+                        loop: true,
+                        deleteSpeed: 60
+                      }}
                     />
                     {/* Please modify the above code to change the
                     role as you wish.  */}

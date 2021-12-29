@@ -40,7 +40,6 @@
 
 .profile-details-role {
   height: 100%;
-  font-size: 15px;
 }
 
 .greeting-text {
@@ -100,7 +99,7 @@
     font-size: 20px;
   }
   .profile-details-role {
-  height: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 768px) {
@@ -108,8 +107,8 @@
     justify-content: space-around;
   }
   .profile-details-role {
-  height: 100%;
-  text-align: center;
+    height: 100%;
+    text-align: center;
   }
   .greeting-text {
     font-size: 30px;
