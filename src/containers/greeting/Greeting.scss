@@ -93,13 +93,14 @@
 /* Media Query */
 @media (max-width: 1380px) {
   .greeting-text {
-    font-size: 50px;
+    font-size: 40px;
   }
   .greeting-text-p {
     font-size: 20px;
   }
   .profile-details-role {
     height: 100%;
+    font-size: 15px;
   }
 }
 @media (max-width: 768px) {
@@ -108,6 +109,7 @@
   }
   .profile-details-role {
     height: 100%;
+    font-size: 12px;
     text-align: center;
   }
   .greeting-text {
