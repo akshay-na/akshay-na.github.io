@@ -26,7 +26,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.com/akshay-na",
-  linkedin: "https://www.linkedin.com/in/akshay-n-a-12486217a/",
+  linkedin: "www.linkedin.com/in/akshay-na",
   gmail: "akshayna04@gmail.com",
   medium: "https://medium.com/@short_saga",
   // Instagram, Twitter and Kaggle are also supported in the links!

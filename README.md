@@ -132,7 +132,7 @@ const greeting = {
 const socialMediaLinks = {
   /* Your Social Media Link */
   github: "https://github.com/akshay-na",
-  linkedin: "https://www.linkedin.com/in/akshay-n-a-12486217a/",
+  linkedin: "www.linkedin.com/in/akshay-na",
   gmail: "akshayna04@gmail.com",
 };
 
