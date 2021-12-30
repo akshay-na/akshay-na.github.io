@@ -1,7 +1,7 @@
 # Software Developer Portfolio ⚡️
 
-
 ## A clean, beautiful and responsive portfolio for Developers
+
 ### To view a live example, **[click here](https://akshay-na.github.io)**.
 
 </br>

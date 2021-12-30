@@ -180,8 +180,8 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Developer",
-      company: "Hexaware Technology",
+      role: "Associate Software Engineer",
+      company: "Hexaware Technologies",
       companylogo: require("./assets/images/hexaLogo.png"),
       date: "September 2020 – Present",
       desc: "Developed scripts to automate some of the Core Banking processes.",
