@@ -23,7 +23,7 @@ function Pre(props) {
     >
       {props.load ? (
         illustration.animated ? (
-          <DisplayLottie animationData={PreloaderLottie} width={250} />
+          <DisplayLottie animationData={PreloaderLottie} width={300} />
         ) : (
           <img
             class="svg-loader "
