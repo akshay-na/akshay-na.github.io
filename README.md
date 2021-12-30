@@ -1,6 +1,8 @@
 # Software Developer Portfolio ⚡️
 
+
 ## A clean, beautiful and responsive portfolio for Developers
+### To view a live example, **[click here](https://akshay-na.github.io)**.
 
 </br>
 
@@ -34,8 +36,6 @@ Created something awesome for your fork of the portfolio and want to share it? F
 ✔️ Achievements And Certifications 🏆\
 ✔️ Contact me\
 ✔️ GitHub Profile
-
-To view a live example, **[click here](https://akshay-na.github.io)**.
 
 ## Getting Started
 
