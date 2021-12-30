@@ -13,6 +13,8 @@ import Top from "./topbutton/Top";
 import Profile from "./profile/Profile";
 import {StyleProvider} from "../contexts/StyleContext";
 import {useLocalStorage} from "../hooks/useLocalStorage";
+import Preloader from "../components/preloader/Pre";
+import {useState, useEffect} from "react";
 import "./Main.scss";
 
 const Main = () => {
@@ -23,9 +25,20 @@ const Main = () => {
     setIsDark(!isDark);
   };
 
+  const [load, upadateLoad] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      upadateLoad(false);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className={isDark ? "dark-mode" : null}>
       <StyleProvider value={{isDark: isDark, changeTheme: changeTheme}}>
+        <Preloader load={load} />
         <Header />
         <Greeting />
         <Skills />
