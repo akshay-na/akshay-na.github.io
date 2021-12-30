@@ -184,7 +184,7 @@ const workExperiences = {
       company: "Hexaware Technology",
       companylogo: require("./assets/images/hexaLogo.png"),
       date: "September 2020 – Present",
-      desc: "Developer to automate some of the Core Banking processes.",
+      desc: "Developed scripts to automate some of the Core Banking processes.",
       descBullets: [
         "Came up with my initiatives & automation to solve customer issues and reduced 80% of the manual work related to it.",
         "Worked on the alert integrations with Outlook and other platforms to maintain Core workload automation.",
