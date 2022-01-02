@@ -182,7 +182,7 @@ const workExperiences = {
     {
       role: "Associate Software Engineer",
       company: "Hexaware Technologies",
-      companylogo: require("./assets/images/hexaLogo.png"),
+      companylogo: require("./assets/images/hexaLogo.gif"),
       date: "September 2020 – Present",
       desc: "Developed scripts to automate some of the Core Banking processes.",
       descBullets: [
