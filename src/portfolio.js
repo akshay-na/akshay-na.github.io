@@ -192,9 +192,7 @@ const workExperiences = {
       ]
     }
 
-    // Modify the following template to add more companies. To change the grid
-    // layout uncomment the line "// grid-template-columns: repeat(auto-fit,
-    // minmax(290px, 1fr));" and comment out the below line in the  ./containers/workExperience/WorkExperience.scss
+    // Modify the following template to add more companies.
 
     // {
     // 	role: 'Front-End Developer',
