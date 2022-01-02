@@ -190,21 +190,12 @@ const workExperiences = {
         "Worked on the alert integrations with Outlook and other platforms to maintain Core workload automation.",
         "Familiar with tools like Jira & UC4 Workload automation tool."
       ]
-    },
-    {
-      role: "",
-      company: "",
-      // companylogo: require(''),
-      date: "",
-      desc: ""
-    },
-    {
-      role: "",
-      company: "",
-      // companylogo: require(''),
-      date: "",
-      desc: ""
     }
+
+    // Modify the following template to add more companies. To change the grid
+    // layout uncomment the line "// grid-template-columns: repeat(auto-fit,
+    // minmax(290px, 1fr));" and comment out the below line in the  ./containers/workExperience/WorkExperience.scss
+
     // {
     // 	role: 'Front-End Developer',
     // 	company: 'Quora',
