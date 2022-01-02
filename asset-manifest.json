@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.604c0bf5.css",
-    "main.js": "/static/js/main.8ed93dbd.js",
+    "main.js": "/static/js/main.310d7a46.js",
     "static/css/141.27c49f1b.chunk.css": "/static/css/141.27c49f1b.chunk.css",
     "static/js/141.28884d4b.chunk.js": "/static/js/141.28884d4b.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
     "static/js/769.67f3a928.chunk.js": "/static/js/769.67f3a928.chunk.js",
     "static/media/sbclogo.png": "/static/media/sbclogo.0619295a1af7498b0659.png",
-    "static/media/hexaLogo.webp": "/static/media/hexaLogo.6668ef20b34cdb5e0e07.webp",
+    "static/media/hexaLogo.webp": "/static/media/hexaLogo.2918447b404759878625.webp",
     "static/media/AiWorkshop.jpg": "/static/media/AiWorkshop.65059c49e0c9441942b7.jpg",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
     "static/media/Agustina.woff": "/static/media/Agustina.eb0c59dda4cc308cba96.woff",
@@ -21,7 +21,7 @@
     "static/media/CBD.PNG": "/static/media/CBD.f6688dffdeed90895967.PNG",
     "index.html": "/index.html",
     "main.604c0bf5.css.map": "/static/css/main.604c0bf5.css.map",
-    "main.8ed93dbd.js.map": "/static/js/main.8ed93dbd.js.map",
+    "main.310d7a46.js.map": "/static/js/main.310d7a46.js.map",
     "141.27c49f1b.chunk.css.map": "/static/css/141.27c49f1b.chunk.css.map",
     "141.28884d4b.chunk.js.map": "/static/js/141.28884d4b.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
@@ -29,6 +29,6 @@
   },
   "entrypoints": [
     "static/css/main.604c0bf5.css",
-    "static/js/main.8ed93dbd.js"
+    "static/js/main.310d7a46.js"
   ]
 }
