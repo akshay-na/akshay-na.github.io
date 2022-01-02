@@ -272,11 +272,11 @@ const achievementSection = {
     {
       title: "Certified BlockChain Developer by Blockchain Council",
       subtitle: "Certification Course.",
-      image: require("./assets/images/CBD.PNG"),
+      image: require("./assets/images/CBD.jpg"),
       footerLink: [
         {
           name: "Certification",
-          url: ""
+          url: "https://www.blockchain-council.org/certifications/certified-blockchain-developer/"
         }
       ]
     },
