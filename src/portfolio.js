@@ -183,7 +183,7 @@ const workExperiences = {
       role: "Associate Software Developer",
       company: "Hexaware Technologies",
       companylogo: require("./assets/images/hexaLogo.webp"),
-      date: "September 2020 – December 2021",
+      date: "September 2020 - January 2021",
       desc: "Developed scripts to automate some of the Core Banking processes.",
       descBullets: [
         "Came up with my initiatives & automation to solve customer issues and reduced 80% of the manual work related to it.",
