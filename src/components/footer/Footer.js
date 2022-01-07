@@ -15,12 +15,6 @@ export default function Footer() {
             Akshay N
           </a>
         </p>
-        <p className={isDark ? "dark-mode footer-text-p" : "footer-text-p"}>
-          Theme by{" "}
-          <a href="https://github.com/saadpasta/developerFolio">
-            developerFolio
-          </a>
-        </p>
       </div>
     </Fade>
   );
