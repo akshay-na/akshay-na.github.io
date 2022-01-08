@@ -16,7 +16,8 @@ const greeting = {
   subTitle: emoji(
     "Am A Software Developer 🚀 with a strong foundation in programming. A quick learner and a team player with a proven ability in problem solving and analysis."
   ),
-  resumeLink: "Resume.pdf", // Set to empty to hide the button
+  resumeLink:
+    "https://docs.google.com/document/d/1T41XnCj7vWGVN3PMCz8yApdmnFMAxpjP_8K3Z-e3Gtk/export?format=pdf", // Set to empty to hide the button
   resumeName: "Akshay's Resume.pdf",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
