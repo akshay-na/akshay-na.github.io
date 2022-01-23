@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.1b2abfae.css",
-    "main.js": "/static/js/main.eabea151.js",
+    "main.css": "/static/css/main.dc13fd31.css",
+    "main.js": "/static/js/main.aade67ac.js",
     "static/css/141.27c49f1b.chunk.css": "/static/css/141.27c49f1b.chunk.css",
-    "static/js/141.28884d4b.chunk.js": "/static/js/141.28884d4b.chunk.js",
+    "static/js/141.bfebe1c8.chunk.js": "/static/js/141.bfebe1c8.chunk.js",
     "static/css/769.70f3b610.chunk.css": "/static/css/769.70f3b610.chunk.css",
-    "static/js/769.67f3a928.chunk.js": "/static/js/769.67f3a928.chunk.js",
+    "static/js/769.6694fca2.chunk.js": "/static/js/769.6694fca2.chunk.js",
     "static/media/sbclogo.png": "/static/media/sbclogo.0619295a1af7498b0659.png",
     "static/media/hexaLogo.webp": "/static/media/hexaLogo.2918447b404759878625.webp",
     "static/media/Montserrat-Regular.ttf": "/static/media/Montserrat-Regular.3cd786652b8a2e9d41f2.ttf",
@@ -21,15 +21,15 @@
     "static/media/CBD.jpg": "/static/media/CBD.2e8691aea3b16f086cd6.jpg",
     "static/media/skill.svg": "/static/media/skill.35a147662ab0a1d15e579690446e0258.svg",
     "index.html": "/index.html",
-    "main.1b2abfae.css.map": "/static/css/main.1b2abfae.css.map",
-    "main.eabea151.js.map": "/static/js/main.eabea151.js.map",
+    "main.dc13fd31.css.map": "/static/css/main.dc13fd31.css.map",
+    "main.aade67ac.js.map": "/static/js/main.aade67ac.js.map",
     "141.27c49f1b.chunk.css.map": "/static/css/141.27c49f1b.chunk.css.map",
-    "141.28884d4b.chunk.js.map": "/static/js/141.28884d4b.chunk.js.map",
+    "141.bfebe1c8.chunk.js.map": "/static/js/141.bfebe1c8.chunk.js.map",
     "769.70f3b610.chunk.css.map": "/static/css/769.70f3b610.chunk.css.map",
-    "769.67f3a928.chunk.js.map": "/static/js/769.67f3a928.chunk.js.map"
+    "769.6694fca2.chunk.js.map": "/static/js/769.6694fca2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b2abfae.css",
-    "static/js/main.eabea151.js"
+    "static/css/main.dc13fd31.css",
+    "static/js/main.aade67ac.js"
   ]
 }
