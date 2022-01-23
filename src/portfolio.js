@@ -184,7 +184,7 @@ const workExperiences = {
       role: "Blockchain Developer",
       company: "Cyber Infrastructure",
       companylogo: require("./assets/images/cis_logo_white.png"),
-      date: "January 2021 - Present",
+      date: "January 2022 - Present",
       desc: "Developing optimized and cost effective smart-contracts on various Blockchains and HyperLedgers.",
       descBullets: [
         // "Came up with my initiatives & automation to solve customer issues and reduced 80% of the manual work related to it.",
@@ -202,7 +202,7 @@ const workExperiences = {
       role: "Associate Software Developer",
       company: "Hexaware Technologies",
       companylogo: require("./assets/images/hexaLogo.webp"),
-      date: "September 2020 - January 2021",
+      date: "September 2020 - January 2022",
       desc: "Developed scripts to automate some of the Core Banking processes.",
       descBullets: [
         "Came up with my initiatives & automation to solve customer issues and reduced 80% of the manual work related to it.",
