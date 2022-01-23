@@ -30,6 +30,15 @@ export default function ExperienceCard({cardInfo, isDark}) {
       : null;
   };
 
+  function openUrlInNewTab(url, name) {
+    if (!url) {
+      console.log(`URL for ${name} not found`);
+      return;
+    }
+    var win = window.open(url, "_blank");
+    win.focus();
+  }
+
   return (
     <div className={isDark ? "experience-card-dark" : "experience-card"}>
       <div style={{background: rgb(colorArrays)}} className="experience-banner">
@@ -78,6 +87,19 @@ export default function ExperienceCard({cardInfo, isDark}) {
         <ul>
           <GetDescBullets descBullets={cardInfo.descBullets} isDark={isDark} />
         </ul>
+      </div>
+      <div className="experience-card-footer">
+        {cardInfo.footer.map((v, i) => {
+          return (
+            <span
+              key={i}
+              className={isDark ? "dark-mode experience-tag" : "experience-tag"}
+              onClick={() => openUrlInNewTab(v.url, v.name)}
+            >
+              {v.name}
+            </span>
+          );
+        })}
       </div>
     </div>
   );

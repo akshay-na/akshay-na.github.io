@@ -181,6 +181,24 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Blockchain Developer",
+      company: "Cyber Infrastructure",
+      companylogo: require("./assets/images/cis_logo_white.png"),
+      date: "January 2021 - Present",
+      desc: "Developing optimized and cost effective smart-contracts on various Blockchains and HyperLedgers.",
+      descBullets: [
+        // "Came up with my initiatives & automation to solve customer issues and reduced 80% of the manual work related to it.",
+        // "Worked on the alert integrations with Outlook and other platforms to maintain Core workload automation.",
+        // "Familiar with tools like Jira & UC4 Workload automation tool."
+      ],
+      footerLink: [
+        {
+          name: "Website",
+          url: "https://www.cisin.com/"
+        }
+      ]
+    },
+    {
       role: "Associate Software Developer",
       company: "Hexaware Technologies",
       companylogo: require("./assets/images/hexaLogo.webp"),
@@ -190,6 +208,12 @@ const workExperiences = {
         "Came up with my initiatives & automation to solve customer issues and reduced 80% of the manual work related to it.",
         "Worked on the alert integrations with Outlook and other platforms to maintain Core workload automation.",
         "Familiar with tools like Jira & UC4 Workload automation tool."
+      ],
+      footerLink: [
+        {
+          name: "Website",
+          url: "https://hexaware.com/"
+        }
       ]
     }
 

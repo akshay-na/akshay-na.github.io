@@ -24,8 +24,8 @@ if (USE_GITHUB_DATA === "true") {
   console.log(`Fetching profile data for ${GITHUB_USERNAME}`);
   var data = JSON.stringify({
     query: `
-{
-  user(login:"${GITHUB_USERNAME}") { 
+
+  user(login:"${GITHUB_USERNAME}") {
     name
     bio
     isHireable
