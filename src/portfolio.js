@@ -183,9 +183,10 @@ const workExperiences = {
     {
       role: "Blockchain Developer",
       company: "Cyber Infrastructure",
-      companylogo: require("./assets/images/cis_logo_white.png"),
+      companylogo: require("./assets/images/cisLogo.webp"),
       date: "January 2022 - Present",
       desc: "Developing optimized and cost effective smart-contracts on various Blockchains and HyperLedgers.",
+      background: false,  // set it true to use image background as card background
       descBullets: [
         // "Came up with my initiatives & automation to solve customer issues and reduced 80% of the manual work related to it.",
         // "Worked on the alert integrations with Outlook and other platforms to maintain Core workload automation.",
@@ -204,6 +205,7 @@ const workExperiences = {
       companylogo: require("./assets/images/hexaLogo.webp"),
       date: "September 2020 - January 2022",
       desc: "Developed scripts to automate some of the Core Banking processes.",
+      background: false,  // set it true to use image background as card background
       descBullets: [
         "Came up with my initiatives & automation to solve customer issues and reduced 80% of the manual work related to it.",
         "Worked on the alert integrations with Outlook and other platforms to maintain Core workload automation.",
