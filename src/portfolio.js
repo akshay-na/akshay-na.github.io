@@ -134,7 +134,7 @@ const educationInfo = {
       logo: require("./assets/images/AIT_logo.jpg"),
       subHeader: "Bachelor of Engineering in Electronics & Communication",
       duration: "August 2016 - June 2020",
-      desc: "Took extra courses about AI, Neural Network, VLSI front-end designing, ...",
+      desc: "Took extra courses such as AI, Neural Network, VLSI front-end designing, ...",
       descBullets: [
         "CGPA: 8.02",
         "Participated in various workshops such as VLSI, Robotics, Marketing, ..."
