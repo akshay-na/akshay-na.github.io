@@ -181,7 +181,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Blockchain Developer",
+      role: "Software Developer",
       company: "Cyber Infrastructure",
       companylogo: require("./assets/images/cisLogo.webp"),
       date: "January 2022 - Present",
@@ -200,7 +200,7 @@ const workExperiences = {
       ]
     },
     {
-      role: "Associate Software Developer",
+      role: "Associate Software Engineer",
       company: "Hexaware Technologies",
       companylogo: require("./assets/images/hexaLogo.webp"),
       date: "September 2020 - January 2022",
