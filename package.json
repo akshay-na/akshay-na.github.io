@@ -32,9 +32,6 @@
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": {
     "production": [
       ">0.3%",
@@ -55,9 +52,6 @@
   "devDependencies": {
     "@iconify/react": "^3.1.0",
     "dotenv": "^8.2.0",
-    "eslint-plugin-flowtype": "^8.0.3",
-    "eslint-plugin-import": "^2.25.4",
-    "eslint-plugin-react-hooks": "^4.2.1-rc.0-next-13036bfbc-20220121",
     "prettier": "^2.3.1"
   }
 }
