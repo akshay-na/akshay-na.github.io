@@ -32,6 +32,10 @@
     "format": "prettier --write \"./**/*.{js,css,json,scss}\"",
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
   },
+  "engines": {
+    "npm": "6.x",
+    "node": "12.x"
+  },
   "browserslist": {
     "production": [
       ">0.3%",
