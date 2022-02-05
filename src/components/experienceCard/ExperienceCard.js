@@ -8,7 +8,7 @@ export default function ExperienceCard({cardInfo, isDark}) {
 
   function getColorArrays(values) {
     const colorThief = new ColorThief();
-    values == true
+    values === true
       ? setColorArrays(colorThief.getColor(imgRef.current))
       : setColorArrays([]);
   }
