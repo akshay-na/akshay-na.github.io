@@ -1,4 +1,4 @@
-import React, {Component, Suspense} from "react";
+import React, { Component, Suspense } from "react";
 import Lottie from "react-lottie";
 import Loading from "../../containers/loading/Loading";
 

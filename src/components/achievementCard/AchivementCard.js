@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function AchivementCard({cardInfo}) {
+export default function AchivementCard({ cardInfo }) {
   function openUrlInNewTab(url) {
     if (!url) {
       return;
