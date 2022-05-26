@@ -46,9 +46,11 @@ const skillsSection = {
   title: "What I do",
   subTitle: "A DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop interactive Front end / User Interfaces for your web"),
-    emoji("⚡ Develop optimized Smart-Contracts on Ethereum Blockchain"),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ Develop Backend and APIs for your Web Application"),
+    emoji("⚡ Develop Optimized Smart-Contracts on Ethereum Blockchain"),
+    emoji(
+      "⚡ Develop Decentralized Application and Integrating the Blockchain"
+    ),
     emoji("⚡ Integration of third party services such as AWS / Digital Ocean")
   ],
 
@@ -57,52 +59,32 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "Java",
-      fontAwesomeClassname: "fab fa-java"
-    },
-    {
       skillName: "Solidity",
       fontAwesomeClassname: "fab fa-ethereum"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "Reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "Shell",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "Angular",
-      fontAwesomeClassname: "fab fa-angular"
+      skillName: "Reactjs",
+      fontAwesomeClassname: "fab fa-react"
     },
     {
       skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "HTML-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "CSS-3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "SASS",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
     {
-      skillName: "SQL-Database",
-      fontAwesomeClassname: "fas fa-database"
+      skillName: "Mango DB",
+      fontAwesomeClassname: "fab fa-envira"
     },
     {
       skillName: "AWS",
@@ -185,7 +167,7 @@ const workExperiences = {
       company: "Cyber Infrastructure",
       companylogo: require("./assets/images/cisLogo.webp"),
       date: "January 2022 - Present",
-      desc: "Developing optimized and cost effective smart-contracts on various Blockchains and HyperLedgers.",
+      desc: "Developed various ERC20, ERC721 and some non standard smart contracts in various blockchains.",
       background: false, // set it true to use image background as card background
       descBullets: [
         // "Came up with my initiatives & automation to solve customer issues and reduced 80% of the manual work related to it.",
