@@ -170,7 +170,7 @@ const workExperiences = {
       desc: "Developed various ERC20, ERC721 and some non standard smart contracts in various blockchains.",
       background: false, // set it true to use image background as card background
       descBullets: [
-        // "Came up with my initiatives & automation to solve customer issues and reduced 80% of the manual work related to it.",
+        // "Came up with my initiatives & automation to solve customer issues an reduced 80% of the manual work related to it.",
         // "Worked on the alert integrations with Outlook and other platforms to maintain Core workload automation.",
         // "Familiar with tools like Jira & UC4 Workload automation tool."
       ],
