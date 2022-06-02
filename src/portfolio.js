@@ -14,7 +14,7 @@ const greeting = {
   username: "Akshay N A",
   title: "Hi all, I'm Akshay",
   subTitle: emoji(
-    "Am A Software Developer 🚀 with a strong foundation in programming. A quick learner and a team player with a proven ability in problem solving and analysis."
+    "Am A Blockchain Developer 🚀 with a strong foundation in blockchain and smart contracts. A quick learner and a team player with a proven ability in problem solving and analysis."
   ),
   resumeLink:
     "https://docs.google.com/document/d/1T41XnCj7vWGVN3PMCz8yApdmnFMAxpjP_8K3Z-e3Gtk/export?format=pdf", // Set to empty to hide the button
@@ -170,9 +170,10 @@ const workExperiences = {
       desc: "Developed various ERC20, ERC721 and some non standard smart contracts in various blockchains.",
       background: false, // set it true to use image background as card background
       descBullets: [
-        // "Came up with my initiatives & automation to solve customer issues an reduced 80% of the manual work related to it.",
-        // "Worked on the alert integrations with Outlook and other platforms to maintain Core workload automation.",
-        // "Familiar with tools like Jira & UC4 Workload automation tool."
+        "Built and deployed smart contracts that meet rigorous audit requirements",
+        "Plan for and support blockchain infrastructure",
+        "Worked closely with management and Product to define crypto strategies and roadmaps",
+        "Mentor and trained other team members and friends on smart contract and blockchain best practices"
       ],
       footerLink: [
         {
