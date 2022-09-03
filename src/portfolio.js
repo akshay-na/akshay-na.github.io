@@ -29,6 +29,7 @@ const socialMediaLinks = {
   linkedin: "https://www.linkedin.com/in/akshay-na",
   gmail: "akshayna04@gmail.com",
   medium: "https://medium.com/@short_saga",
+  npm: "https://www.npmjs.com/~akshay-na",
   instagram: "",
   twitter: "",
   facebook: "",
