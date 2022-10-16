@@ -239,12 +239,42 @@ const bigProjects = {
   subtitle: "PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
+      image: require("./assets/images/oetLogo.png"),
+      projectName: "HUB-Decipher OET",
+      projectDesc:
+        "Understanding and Maintaining production codebase. Develop and Integrate new feature to the existing hub",
+      footerLink: [
+        //  you can add extra buttons here.
+        {
+          name: "OET",
+          url: "https://www.occupationalenglishtest.org/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/newwealthLogo.png"),
+      projectName: "NewWealthColab NFTs & NFT Marketplace",
+      projectDesc:
+        "Unique Builder NFTs to provide special access to realtors and a marketplace to trade and Auction NFTs",
+      footerLink: [
+        //  you can add extra buttons here.
+        {
+          name: "NewWealthColab",
+          url: "https://www.newwealthcolab.com/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/patelcoLogo.png"),
       projectName: "Patelco L1 Service Desk Support",
       projectDesc:
         "Provided Core Banking Support, Developed UNIX scripts & built RPA bot to automate some of the core banking processes",
       footerLink: [
         //  you can add extra buttons here.
+        {
+          name: "Patelco Credit Union",
+          url: "https://www.patelco.org/"
+        }
       ]
     },
     {
