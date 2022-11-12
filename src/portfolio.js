@@ -31,7 +31,7 @@ const socialMediaLinks = {
   medium: "https://medium.com/@short_saga",
   npm: "https://www.npmjs.com/~akshay-na",
   instagram: "",
-  twitter: "",
+  twitter: "https://twitter.com/akshaynal",
   facebook: "",
   kaggle: "",
   gitlab: "",
