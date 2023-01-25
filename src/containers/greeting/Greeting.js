@@ -1,14 +1,13 @@
 import React, { useContext } from "react";
 import { Fade } from "react-reveal";
-import emoji from "react-easy-emoji";
-import "./Greeting.scss";
+import Typewriter from "typewriter-effect";
 import landingPerson from "../../assets/lottie/landingPerson";
+import Button from "../../components/button/Button";
 import DisplayLottie from "../../components/displayLottie/DisplayLottie";
 import SocialMedia from "../../components/socialMedia/SocialMedia";
-import Button from "../../components/button/Button";
-import Typewriter from "typewriter-effect";
-import { illustration, greeting } from "../../portfolio";
 import StyleContext from "../../contexts/StyleContext";
+import { greeting, illustration } from "../../portfolio";
+import "./Greeting.scss";
 
 export default function Greeting() {
   const { isDark } = useContext(StyleContext);
@@ -25,8 +24,7 @@ export default function Greeting() {
                 className={isDark ? "dark-mode greeting-text" : "greeting-text"}
               >
                 {" "}
-                {greeting.title}{" "}
-                <span className="wave-emoji">{emoji("👋")}</span>
+                {greeting.title} <span className="wave-emoji">👋</span>
               </h1>
               <div
                 className={

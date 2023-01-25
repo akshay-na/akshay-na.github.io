@@ -1,9 +1,6 @@
 /* Change this file to get your personal Portfolio */
 
 // To change portfolio colors globally go to the  _globalColor.scss file
-
-import emoji from "react-easy-emoji";
-
 // Summary And Greeting Section
 
 const illustration = {
@@ -13,9 +10,8 @@ const illustration = {
 const greeting = {
   username: "Akshay N A",
   title: "Hi all, I'm Akshay",
-  subTitle: emoji(
-    "Am A Blockchain Developer 🚀 with a strong foundation in blockchain and smart contracts. A quick learner and a team player with a proven ability in problem solving and analysis."
-  ),
+  subTitle:
+    "Am A Blockchain Developer 🚀 with a strong foundation in blockchain and smart contracts. A quick learner and a team player with a proven ability in problem solving and analysis.",
   resumeLink:
     "https://docs.google.com/document/d/1T41XnCj7vWGVN3PMCz8yApdmnFMAxpjP_8K3Z-e3Gtk/export?format=pdf", // Set to empty to hide the button
   resumeName: "Akshay's Resume.pdf",
@@ -47,12 +43,10 @@ const skillsSection = {
   title: "What I do",
   subTitle: "A DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    emoji("⚡ Develop Backend and APIs for your Web Application"),
-    emoji("⚡ Develop Optimized Smart-Contracts on Ethereum Blockchain"),
-    emoji(
-      "⚡ Develop Decentralized Application and Integrating the Blockchain"
-    ),
-    emoji("⚡ Integration of third party services such as AWS / Digital Ocean")
+    "⚡️ Develop Backend and APIs for your Web Application",
+    "⚡️ Develop Optimized Smart-Contracts on Ethereum Blockchain",
+    "⚡️ Develop Decentralized Application and Integrating the Blockchain",
+    "⚡️ Integration of third party services such as AWS / Digital Ocean"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -303,7 +297,7 @@ const bigProjects = {
 // Include certificates, talks etc
 
 const achievementSection = {
-  title: emoji("Achievements And Certifications 🏆 "),
+  title: "Achievements And Certifications 🏆 ",
   subtitle:
     "Achievements, Certifications, Award Letters and Some Cool Stuff that I have done !",
 
@@ -340,7 +334,7 @@ const achievementSection = {
 };
 
 const contactInfo = {
-  title: emoji("Contact Me ☎️"),
+  title: "Contact Me ☎️",
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   email_address: "akshayna04@gmail.com"
