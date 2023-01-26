@@ -11,7 +11,7 @@ const greeting = {
   username: "Akshay N A",
   title: "Hi all, I'm Akshay",
   subTitle:
-    "Am A Blockchain Developer 🚀 with a strong foundation in blockchain and smart contracts. A quick learner and a team player with a proven ability in problem solving and analysis.",
+    "A highly skilled Software Developer 🚀 with a solid foundation in Blockchain and Smart Contracts, able to quickly learn and implement new technologies. A team player with a proven ability in problem-solving, analysis and the ability to work well in a team environment.",
   resumeLink:
     "https://docs.google.com/document/d/1T41XnCj7vWGVN3PMCz8yApdmnFMAxpjP_8K3Z-e3Gtk/export?format=pdf", // Set to empty to hide the button
   resumeName: "Akshay's Resume.pdf",
@@ -131,7 +131,7 @@ const educationInfo = {
   ]
 };
 
-// Your top 3 proficient stacks/tech experienc
+// Your top 3 proficient stacks/tech experience
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
@@ -162,17 +162,17 @@ const workExperiences = {
       company: "Cyber Infrastructure",
       companylogo: require("./assets/images/cisLogo.webp"),
       date: "January 2022 - Present",
-      desc: "Developed various ERC20, ERC721 and some non standard smart contracts in various blockchains.",
+      desc: "Led and developed multiple Web3 and Web2 solutions, utilizing both Blockchain and Web2 technology to achieve project goals.",
       background: false, // set it true to use image background as card background
       descBullets: [
-        "Built and deployed smart contracts that meet rigorous audit requirements",
-        "Plan for and support blockchain infrastructure",
-        "Worked closely with management and Product to define crypto strategies and roadmaps",
-        "Mentor and trained other team members and friends on smart contract and blockchain best practices"
+        "Proven track record of building and deploying smart contracts that meet rigorous audit requirements and support the overall blockchain infrastructure",
+        "Collaborated with management and product teams to define and implement successful crypto strategies and roadmaps",
+        "Strong ability to mentor and train team members and friends on best practices in software and blockchain development",
+        "Demonstrated ability to quickly learn new technologies and deliver high-quality code that exceeds client expectations."
       ],
       footerLink: [
         {
-          name: "Website",
+          name: "cisin.com",
           url: "https://www.cisin.com/"
         }
       ]
@@ -182,39 +182,22 @@ const workExperiences = {
       company: "Hexaware Technologies",
       companylogo: require("./assets/images/hexaLogo.webp"),
       date: "September 2020 - January 2022",
-      desc: "Developed scripts to automate some of the Core Banking processes.",
+      desc: "Successfully automated core banking processes and improved maintenance through the use of shell scripting.",
       background: false, // set it true to use image background as card background
       descBullets: [
-        "Came up with my initiatives & automation to solve customer issues and reduced 80% of the manual work related to it.",
-        "Worked on the alert integrations with Outlook and other platforms to maintain Core workload automation.",
-        "Familiar with tools like Jira & UC4 Workload automation tool."
+        "Implemented shell script based solutions to automate core banking processes, resulting in improved maintenance and decreased manual work by 80%.",
+        "Innovatively addressed customer issues through automation, resulting in a more efficient and effective resolution process.",
+        "Experienced in integrating alerts with various platforms to enhance workload automation.",
+        "Acquired expertise in utilizing tools such as Jira Service Management and UC4 Workload automation to optimize processes.",
+        "Proven ability to effectively automate core banking processes and improve maintenance through the use of shell scripting."
       ],
       footerLink: [
         {
-          name: "Website",
+          name: "hexaware.com",
           url: "https://hexaware.com/"
         }
       ]
     }
-
-    // Modify the following template to add more companies.
-
-    // {
-    // 	role: 'Front-End Developer',
-    // 	company: 'Quora',
-    // 	companylogo: require('./assets/images/quoraLogo.png'),
-    // 	date: 'May 2017 – May 2018',
-    // 	desc:
-    // 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    // },
-    // {
-    // 	role: 'Software Engineer Intern',
-    // 	company: 'Airbnb',
-    // 	companylogo: require('./assets/images/airbnbLogo.png'),
-    // 	date: 'Jan 2015 – Sep 2015',
-    // 	desc:
-    // 		'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.'
-    // }
   ]
 };
 
@@ -236,11 +219,11 @@ const bigProjects = {
       image: require("./assets/images/oetLogo.png"),
       projectName: "HUB-Decipher OET",
       projectDesc:
-        "Understanding and Maintaining production codebase. Develop and Integrate new feature to the existing hub",
+        "Led the maintenance and updates of a production codebase the platform, ensuring optimal performance and stability. Developed and integrated new features to the existing hub, resulting in improved user experience.",
       footerLink: [
         //  you can add extra buttons here.
         {
-          name: "OET",
+          name: "OET Website",
           url: "https://www.occupationalenglishtest.org/"
         }
       ]
@@ -249,11 +232,11 @@ const bigProjects = {
       image: require("./assets/images/newwealthLogo.png"),
       projectName: "NewWealthColab NFTs & NFT Marketplace",
       projectDesc:
-        "Unique Builder NFTs to provide special access to realtors and a marketplace to trade and Auction NFTs",
+        "Developed Unique Builder NFTs to provide special access to realtors. Created marketplace to trade and auction NFTs, resulting in increased liquidity and value for the assets.",
       footerLink: [
         //  you can add extra buttons here.
         {
-          name: "NewWealthColab",
+          name: "NewWealthColab Website",
           url: "https://www.newwealthcolab.com/"
         }
       ]
@@ -262,11 +245,11 @@ const bigProjects = {
       image: require("./assets/images/patelcoLogo.png"),
       projectName: "Patelco L1 Service Desk Support",
       projectDesc:
-        "Provided Core Banking Support, Developed UNIX scripts & built RPA bot to automate some of the core banking processes",
+        "Provided technical support for core banking systems, ensuring smooth operation and high availability of critical banking services.",
       footerLink: [
         //  you can add extra buttons here.
         {
-          name: "Patelco Credit Union",
+          name: "Patelco Credit Union Website",
           url: "https://www.patelco.org/"
         }
       ]
@@ -275,7 +258,7 @@ const bigProjects = {
       image: require("./assets/images/lmsLogo.png"),
       projectName: "Leave Management System",
       projectDesc:
-        "A training full-stack development project built using Java and Angular",
+        "Full-stack training project using Java and Angular, resulting in a comprehensive training platform for new developers. Built using modern technologies and best practices, the project served as a valuable tool for teaching and learning web development.",
       footerLink: [
         //  you can add extra buttons here.
       ]
@@ -284,7 +267,7 @@ const bigProjects = {
       image: require("./assets/images/ecommLogo.png"),
       projectName: "E-Commerce Website",
       projectDesc:
-        "A training full-stack development project built using .NET Framework and Angular",
+        "Full-stack training project using .NET and Angular, resulting in a comprehensive training platform for new developers. Built using modern technologies and best practices, the project served as a valuable tool for teaching and learning web development.",
       footerLink: [
         //  you can add extra buttons here.
       ]
