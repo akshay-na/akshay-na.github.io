@@ -10,9 +10,7 @@ export default function Footer() {
       <div className="footer-div">
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {"Made with ❤️ by "}
-          <a href="https://github.com/akshay-na/akshay-na.github.io">
-            Akshay N
-          </a>
+          <a href="https://www.linkedin.com/in/akshay-na/">Akshay N</a>
         </p>
       </div>
     </Fade>
