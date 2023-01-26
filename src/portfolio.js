@@ -41,8 +41,7 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle:
-    "A developer with a constant desire to learn and grow, continuously expanding my knowledge and skillset in various programming languages and frameworks",
+  subTitle: "A DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
     "⚡️ Expertise in developing backend and APIs for web applications.",
     "⚡️ Strong ability to develop optimized smart-contracts.",
