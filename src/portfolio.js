@@ -45,8 +45,8 @@ const skillsSection = {
   skills: [
     "⚡️ Expertise in developing backend and APIs for web applications.",
     "⚡️ Strong ability to develop optimized smart-contracts.",
-    "⚡️ Experience in developing decentralized applications and integration.",
-    "⚡️ Skilled in integrating third-party services such as AWS or Digital Ocean."
+    "⚡️ Experience in developing decentralized applications.",
+    "⚡️ Skilled in integrating third-party services such as AWS, Azure"
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
