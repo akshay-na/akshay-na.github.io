@@ -41,12 +41,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle:
+    "A developer with a constant desire to learn and grow, continuously expanding my knowledge and skillset in various programming languages and frameworks",
   skills: [
-    "⚡️ Develop Backend and APIs for your Web Application",
-    "⚡️ Develop Optimized Smart-Contracts on Ethereum Blockchain",
-    "⚡️ Develop Decentralized Application and Integrating the Blockchain",
-    "⚡️ Integration of third party services such as AWS / Digital Ocean"
+    "⚡️ Expertise in developing backend and APIs for web applications.",
+    "⚡️ Strong ability to develop optimized smart-contracts.",
+    "⚡️ Experience in developing decentralized applications and integration.",
+    "⚡️ Skilled in integrating third-party services such as AWS or Digital Ocean."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
