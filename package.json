@@ -33,7 +33,7 @@
   },
   "engines": {
     "npm": "6.x",
-    "node": "12.x"
+    "node": "14.x"
   },
   "browserslist": {
     "production": [
