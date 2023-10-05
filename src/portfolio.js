@@ -21,16 +21,15 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/akshay-na",
-  linkedin: "https://www.linkedin.com/in/akshay-na",
+  github: "https://github.akshay-na.in",
+  linkedin: "https://linkedin.akshay-na.in",
   gmail: "akshayna04@gmail.com",
   medium: "https://medium.com/@short_saga",
-  npm: "https://www.npmjs.com/~akshay-na",
+  npm: "https://npmjs.akshay-na.in",
   instagram: "",
   twitter: "https://twitter.com/akshaynal",
   facebook: "",
   kaggle: "",
-  gitlab: "",
   stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia

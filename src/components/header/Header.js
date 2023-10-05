@@ -63,7 +63,8 @@ function Header() {
           )}
 
           <li>
-            <a href="https://medium.com/@short_saga">Blogs</a>
+            {/* <a href="https://medium.com/@short_saga">Blogs</a> */}
+            <a href="https://blog.akshay-na.in">Blogs</a>
           </li>
 
           <li>
