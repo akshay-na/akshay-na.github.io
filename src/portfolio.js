@@ -29,6 +29,7 @@ const socialMediaLinks = {
   instagram: "",
   twitter: "https://twitter.com/akshaynal",
   facebook: "",
+
   kaggle: "",
   stackoverflow: "",
   // Instagram, Twitter and Kaggle are also supported in the links!
