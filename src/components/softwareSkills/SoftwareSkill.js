@@ -13,7 +13,7 @@ export default function SoftwareSkill() {
                 key={i}
                 className="software-skill-inline"
                 name={skills.skillName}
-                onclick="location.href='https://akshay-na.github.io/'"
+                onclick="location.href='https://akshay-na.in/'"
               >
                 <i className={skills.fontAwesomeClassname}></i>
                 <p>{skills.skillName}</p>
