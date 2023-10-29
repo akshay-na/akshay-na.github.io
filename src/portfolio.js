@@ -218,6 +218,7 @@ const bigProjects = {
     {
       image: require("./assets/images/oetLogo.png"),
       projectName: "OET Applications and Data Migration",
+      date: "Jun 2023 - Present",
       projectDesc:
         "Heading data migration between applications using the strangler approach for a seamless shift from monolithic to microservices. Innovating migration patterns to boost data transfer efficiency.",
       footerLink: [
@@ -231,6 +232,7 @@ const bigProjects = {
     {
       image: require("./assets/images/oetLogo.png"),
       projectName: "Headless HUB",
+      date: "Mar 2023 - Present",
       projectDesc:
         "Leading a team in transitioning from Monolith to microservices architecture for improved scalability. Developing design patterns for smooth project progression and collaborating on a robust cloud infrastructure.",
       footerLink: [
@@ -244,6 +246,7 @@ const bigProjects = {
     {
       image: require("./assets/images/oetLogo.png"),
       projectName: "OET L3 Support",
+      date: "Dec 2022 - Mar 2023",
       projectDesc:
         "Led a team to streamline daily operations through essential scripts, and designed a new script for enhanced efficiency. Managed seamless code transition from a previous vendor, ensuring uninterrupted product functionality.",
       footerLink: [
@@ -257,6 +260,7 @@ const bigProjects = {
     {
       image: require("./assets/images/oetLogo.png"),
       projectName: "HUB Decipher",
+      date: "Sept 2022 - Dec 2022",
       projectDesc:
         "Led a team to analyze and optimize a complex codebase, enhancing its performance and reliability. Assisted the client in reverse engineering for a seamless development environment setup.",
       footerLink: [
@@ -270,6 +274,7 @@ const bigProjects = {
     {
       image: require("./assets/images/newwealthLogo.png"),
       projectName: "NewWealthColab NFTs & NFT Marketplace",
+      date: "May 2022 - Sept 2022",
       projectDesc:
         "Developed Unique Builder NFTs to provide special access to realtors. Created marketplace to trade and auction NFTs, resulting in increased liquidity and value for the assets.",
       footerLink: [
@@ -283,6 +288,7 @@ const bigProjects = {
     {
       image: require("./assets/images/commerja-x.jpeg"),
       projectName: "Bitcash-CommerjaX BEP20 Token Collaboration",
+      date: "Jan 2022 - May 2022",
       projectDesc:
         "Developed a unique token for Commerja-X with advanced tokenomics. Introduced a 10% tax for enhanced appeal and integrated reflection rewards across three tokens for dynamic value distribution.",
       footerLink: [
@@ -296,6 +302,7 @@ const bigProjects = {
     {
       image: require("./assets/images/patelcoLogo.png"),
       projectName: "Patelco L1 Service Desk Support",
+      date: "Mar 2021 - Dec 2021",
       projectDesc:
         "Provided technical support for core banking systems, ensuring smooth operation and high availability of critical banking services.",
       footerLink: [
@@ -309,6 +316,7 @@ const bigProjects = {
     {
       image: require("./assets/images/lmsLogo.png"),
       projectName: "Leave Management System",
+      date: "Sept 2020 - Feb 2021",
       projectDesc:
         "Full-stack training project using Java and Angular, resulting in a comprehensive training platform for new developers. Built using modern technologies and best practices, the project served as a valuable tool for teaching and learning web development.",
       footerLink: [
@@ -318,6 +326,7 @@ const bigProjects = {
     {
       image: require("./assets/images/ecommLogo.png"),
       projectName: "E-Commerce Website",
+      date: "Sept 2020 - Feb 2021",
       projectDesc:
         "Full-stack training project using .NET and Angular, resulting in a comprehensive training platform for new developers. Built using modern technologies and best practices, the project served as a valuable tool for teaching and learning web development.",
       footerLink: [
