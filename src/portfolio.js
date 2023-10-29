@@ -217,14 +217,53 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/oetLogo.png"),
-      projectName: "HUB-Decipher OET",
+      projectName: "OET Applications and Data Migration",
       projectDesc:
-        "Led the maintenance and updates of a production codebase the platform, ensuring optimal performance and stability. Developed and integrated new features to the existing hub, resulting in improved user experience.",
+        "Heading data migration between applications using the strangler approach for a seamless shift from monolithic to microservices. Innovating migration patterns to boost data transfer efficiency.",
       footerLink: [
         //  you can add extra buttons here.
         {
           name: "OET Website",
-          url: "https://www.occupationalenglishtest.org/"
+          url: "https://www.oet.com"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/oetLogo.png"),
+      projectName: "Headless HUB",
+      projectDesc:
+        "Leading a team in transitioning from Monolith to microservices architecture for improved scalability. Developing design patterns for smooth project progression and collaborating on a robust cloud infrastructure.",
+      footerLink: [
+        //  you can add extra buttons here.
+        {
+          name: "OET Website",
+          url: "https://www.oet.com"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/oetLogo.png"),
+      projectName: "OET L3 Support",
+      projectDesc:
+        "Led a team to streamline daily operations through essential scripts, and designed a new script for enhanced efficiency. Managed seamless code transition from a previous vendor, ensuring uninterrupted product functionality.",
+      footerLink: [
+        //  you can add extra buttons here.
+        {
+          name: "OET Website",
+          url: "https://www.oet.com"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/oetLogo.png"),
+      projectName: "HUB Decipher",
+      projectDesc:
+        "Led a team to analyze and optimize a complex codebase, enhancing its performance and reliability. Assisted the client in reverse engineering for a seamless development environment setup.",
+      footerLink: [
+        //  you can add extra buttons here.
+        {
+          name: "OET Website",
+          url: "https://www.oet.com"
         }
       ]
     },
@@ -238,6 +277,19 @@ const bigProjects = {
         {
           name: "NewWealthColab Website",
           url: "https://www.newwealthcolab.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/commerja-x.jpeg"),
+      projectName: "Bitcash-CommerjaX BEP20 Token Collaboration",
+      projectDesc:
+        "Developed a unique token for Commerja-X with advanced tokenomics. Introduced a 10% tax for enhanced appeal and integrated reflection rewards across three tokens for dynamic value distribution.",
+      footerLink: [
+        //  you can add extra buttons here.
+        {
+          name: "Commerja-X Website",
+          url: "https://commerja-x.com/"
         }
       ]
     },
