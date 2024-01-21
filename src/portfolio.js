@@ -13,7 +13,7 @@ const greeting = {
   subTitle:
     "A highly skilled Software Developer 🚀 with a solid foundation in Blockchain and Smart Contracts, able to quickly learn and implement new technologies. A team player with a proven ability in problem-solving, analysis and the ability to work well in a team environment.",
   resumeLink:
-    "https://docs.google.com/document/d/1T41XnCj7vWGVN3PMCz8yApdmnFMAxpjP_8K3Z-e3Gtk/export?format=pdf", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1IvDr9DYBgC9eZJQ_kYUIg3VQ8UGhnzOFDhceL6De7I8/export?format=pdf", // Set to empty to hide the button
   resumeName: "Akshay's Resume.pdf",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
