@@ -70,6 +70,7 @@ export default function Greeting() {
                   className="my-resume"
                   href={greeting.resumeLink}
                   download={greeting.resumeName}
+                  target="_blank"
                 >
                   {greeting.resumeLink && <Button text="See my resume" />}
                 </a>
