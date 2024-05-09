@@ -17,11 +17,13 @@ export default function Greeting() {
   }
 
   const handleResumeDownload = () => {
-    ReactGA.event({
-      category: "Resume",
-      action: "Download Resume",
-      label: "Resume Download"
-    });
+    return () => {
+      ReactGA.event({
+        category: "Download Resume",
+        action: "Resume Downloaded",
+        label: "Resume Download"
+      });
+    };
   };
 
   return (

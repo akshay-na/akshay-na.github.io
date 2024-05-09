@@ -9,12 +9,15 @@ export default function socialMedia() {
   }
 
   const handleSocialMediaClick = social => {
-    ReactGA.event({
-      category: "View social",
-      action: "Click social media",
-      label: social
-    });
+    return () => {
+      ReactGA.event({
+        category: "View social",
+        action: `Checked ${social}`,
+        label: social
+      });
+    };
   };
+
   return (
     <div className="social-media-div">
       {socialMediaLinks.github ? (
