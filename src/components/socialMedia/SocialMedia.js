@@ -1,11 +1,20 @@
 import React from "react";
-import "./SocialMedia.scss";
+import ReactGA from "react-ga";
 import { socialMediaLinks } from "../../portfolio";
+import "./SocialMedia.scss";
 
 export default function socialMedia() {
   if (!socialMediaLinks.display) {
     return null;
   }
+
+  const handleSocialMediaClick = social => {
+    ReactGA.event({
+      category: "View social",
+      action: "Click social media",
+      label: social
+    });
+  };
   return (
     <div className="social-media-div">
       {socialMediaLinks.github ? (
@@ -14,6 +23,7 @@ export default function socialMedia() {
           className="icon-button github"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleSocialMediaClick("github")}
         >
           <i className="fab fa-github"></i>
           <span></span>
@@ -26,6 +36,7 @@ export default function socialMedia() {
           className="icon-button linkedin"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleSocialMediaClick("linkedin")}
         >
           <i className="fab fa-linkedin-in"></i>
           <span></span>
@@ -38,6 +49,7 @@ export default function socialMedia() {
           className="icon-button google"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleSocialMediaClick("gmail")}
         >
           <i className="fas fa-envelope"></i>
           <span></span>
@@ -50,6 +62,7 @@ export default function socialMedia() {
           className="icon-button npm"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleSocialMediaClick("npm")}
         >
           <i className="fab fa-npm"></i>
           <span></span>
@@ -62,6 +75,7 @@ export default function socialMedia() {
           className="icon-button npm"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleSocialMediaClick("gitlab")}
         >
           <i className="fa fa-gitlab"></i>
           <span></span>
@@ -74,6 +88,7 @@ export default function socialMedia() {
           className="icon-button facebook"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleSocialMediaClick("facebook")}
         >
           <i className="fab fa-facebook-f"></i>
           <span></span>
@@ -86,6 +101,7 @@ export default function socialMedia() {
           className="icon-button instagram"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleSocialMediaClick("instagram")}
         >
           <i className="fab fa-instagram"></i>
           <span></span>
@@ -98,6 +114,7 @@ export default function socialMedia() {
           className="icon-button twitter"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleSocialMediaClick("twitter")}
         >
           <i className="fab fa-twitter"></i>
           <span></span>
@@ -110,6 +127,7 @@ export default function socialMedia() {
           className="icon-button medium"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleSocialMediaClick("medium")}
         >
           <i className="fab fa-medium"></i>
           <span></span>
@@ -122,6 +140,7 @@ export default function socialMedia() {
           className="icon-button stack-overflow"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleSocialMediaClick("stackoverflow")}
         >
           <i className="fab fa-stack-overflow"></i>
           <span></span>
@@ -134,6 +153,7 @@ export default function socialMedia() {
           className="icon-button kaggle"
           target="_blank"
           rel="noopener noreferrer"
+          onClick={handleSocialMediaClick("kaggle")}
         >
           <i className="fab fa-kaggle"></i>
           <span></span>

@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import ReactGA from "react-ga";
 import { Fade } from "react-reveal";
 import Typewriter from "typewriter-effect";
 import landingPerson from "../../assets/lottie/landingPerson";
@@ -14,6 +15,15 @@ export default function Greeting() {
   if (!greeting.displayGreeting) {
     return null;
   }
+
+  const handleResumeDownload = () => {
+    ReactGA.event({
+      category: "Resume",
+      action: "Download Resume",
+      label: "Resume Download"
+    });
+  };
+
   return (
     <Fade bottom duration={1000} distance="40px">
       <div className="greet-main" id="greeting">
@@ -71,6 +81,7 @@ export default function Greeting() {
                   href={greeting.resumeLink}
                   download={greeting.resumeName}
                   target="_blank"
+                  onClick={handleResumeDownload}
                 >
                   {greeting.resumeLink && <Button text="See my resume" />}
                 </a>
