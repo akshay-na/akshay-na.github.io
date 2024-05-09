@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import ReactGA from "react-ga";
+import ReactGA from "react-ga4";
 import { Fade } from "react-reveal";
 import Typewriter from "typewriter-effect";
 import landingPerson from "../../assets/lottie/landingPerson";

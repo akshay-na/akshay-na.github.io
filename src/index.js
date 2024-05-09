@@ -1,8 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import ReactGA from "react-ga4";
 import App from "./App";
 import "./index.css";
 import * as serviceWorker from "./serviceWorker";
+
+const TRACKING_ID = "G-MM5FP4KS0N";
+ReactGA.initialize(TRACKING_ID);
+ReactGA.send({
+  hitType: "pageview",
+  page: window.location.pathname
+});
 
 ReactDOM.render(<App />, document.getElementById("root"));
 
