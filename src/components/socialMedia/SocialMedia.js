@@ -8,14 +8,12 @@ export default function socialMedia() {
     return null;
   }
 
-  const handleSocialMediaClick = social => {
-    return () => {
-      ReactGA.event({
-        category: "View social",
-        action: `Checked ${social}`,
-        label: social
-      });
-    };
+  const handleSocialMediaClick = social => () => {
+    ReactGA.event({
+      category: "View social",
+      action: `Checked ${social}`,
+      label: social
+    });
   };
 
   return (
