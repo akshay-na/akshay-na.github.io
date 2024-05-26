@@ -158,7 +158,7 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Developer",
+      role: "Senior Software Developer",
       company: "Cyber Infrastructure",
       companylogo: require("./assets/images/cisLogo.webp"),
       date: "January 2022 - Present",
@@ -385,15 +385,15 @@ const contactInfo = {
 };
 
 export {
-  illustration,
-  greeting,
-  socialMediaLinks,
-  skillsSection,
-  educationInfo,
-  techStack,
-  workExperiences,
-  openSource,
-  bigProjects,
   achievementSection,
-  contactInfo
+  bigProjects,
+  contactInfo,
+  educationInfo,
+  greeting,
+  illustration,
+  openSource,
+  skillsSection,
+  socialMediaLinks,
+  techStack,
+  workExperiences
 };
