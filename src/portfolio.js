@@ -22,6 +22,7 @@ const greeting = {
 
 const socialMediaLinks = {
   github: "https://github.akshay-na.in",
+  gitlab: "https://gitlab.akshay-na.in",
   linkedin: "https://linkedin.akshay-na.in",
   gmail: "akshayna04@gmail.com",
   medium: "https://medium.com/@short_saga",

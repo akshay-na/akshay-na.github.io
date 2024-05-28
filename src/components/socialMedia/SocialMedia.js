@@ -73,12 +73,13 @@ export default function socialMedia() {
       {socialMediaLinks.gitlab ? (
         <a
           href={socialMediaLinks.gitlab}
-          className="icon-button npm"
+          className="icon-button gitlab"
           target="_blank"
           rel="noopener noreferrer"
           onClick={handleSocialMediaClick("gitlab")}
         >
-          <i className="fa fa-gitlab"></i>
+          <i className="fab fa-gitlab"></i>
+          {/* <i class="fa-brands fa-gitlab"></i> */}
           <span></span>
         </a>
       ) : null}
