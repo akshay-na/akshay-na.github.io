@@ -25,7 +25,7 @@ const socialMediaLinks = {
   gitlab: "https://gitlab.akshay-na.in",
   linkedin: "https://linkedin.akshay-na.in",
   gmail: "akshayna04@gmail.com",
-  medium: "https://medium.com/@akshay-na",
+  medium: "https://akshay-na.medium.com/",
   npm: "https://npmjs.akshay-na.in",
   instagram: "",
   twitter: "https://twitter.com/akshaynal",
