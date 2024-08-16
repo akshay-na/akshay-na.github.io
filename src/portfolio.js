@@ -97,6 +97,26 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Git",
       fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "Kubernetes",
+      fontAwesomeClassname: "fas fa-network-wired"
+    },
+    {
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js-square"
+    },
+    {
+      skillName: "Message Queue",
+      fontAwesomeClassname: "fas fa-exchange-alt"
+    },
+    {
+      skillName: "Postman",
+      fontAwesomeClassname: "fas fa-flask"
+    },
+    {
+      skillName: "Networking",
+      fontAwesomeClassname: "fas fa-project-diagram"
     }
   ],
   display: true // Set false to hide this section, defaults to true
