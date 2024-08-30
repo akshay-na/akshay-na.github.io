@@ -50,8 +50,8 @@ export default function Greeting() {
                     <Typewriter
                       options={{
                         strings: [
-                          "Blockchain Developer",
                           "Full-Stack Developer",
+                          "Blockchain Developer",
                           "Crypto Enthusiast ₿"
                         ],
                         autoStart: true,
