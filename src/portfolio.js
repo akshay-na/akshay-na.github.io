@@ -11,7 +11,7 @@ const greeting = {
   username: "Akshay N A",
   title: "Hi all, I'm Akshay",
   subTitle:
-    "A highly skilled Software Developer 🚀 with a solid foundation in Blockchain and Smart Contracts, able to quickly learn and implement new technologies. A team player with a proven ability in problem-solving, analysis and the ability to work well in a team environment.",
+    "A Senior Software Developer with 4+ years of experience in delivering high-performance software solutions and optimizing infrastructure costs. Expertise in Node.js, TypeScript, DevOps, Azure, Shell Scripting, and cloud technologies. Proven track record in leading cross-functional teams, mentoring junior developers, and deploying scalable Web3 and Web2 solutions. Accomplished in reducing billing costs by 92% through API optimizations and enhancing system performance by 30% using agile methodologies. Adept at streamlining processes and driving efficiency with automated solutions.",
   resumeLink:
     "https://docs.google.com/document/d/1bI1du_KNfonEWy7pKNwxKI6j1BVnf1JCgx6FxcXQh8I/export?format=pdf", // Set to empty to hide the button
   resumeName: "Akshay's Resume.pdf",
@@ -44,10 +44,10 @@ const skillsSection = {
   title: "What I do",
   subTitle: "A DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    "⚡️ Expertise in developing backend and APIs for web applications.",
-    "⚡️ Strong ability to develop optimized smart-contracts.",
-    "⚡️ Experience in developing decentralized applications.",
-    "⚡️ Skilled in integrating third-party services such as AWS, Azure"
+    "⚡️ Expertise in leading and delivering both Web2 and Web3 solutions, leveraging blockchain and traditional technologies for optimal performance.",
+    "⚡️ Skilled in cost optimization strategies, reducing Google API billing by 92% and Azure egress data transfer costs by 75%.",
+    "⚡️ Proficient in mentoring and upskilling teams, improving proficiency in frameworks like NestJS and Node.js.",
+    "⚡️ Strong ability to streamline processes through automation, achieving significant reductions in manual interventions and operational overhead."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -186,10 +186,13 @@ const workExperiences = {
       desc: "Led and developed multiple Web3 and Web2 solutions, utilizing both Blockchain and Web2 technology to achieve project goals.",
       background: false, // set it true to use image background as card background
       descBullets: [
-        "Proven track record of building and deploying smart contracts that meet rigorous audit requirements and support the overall blockchain infrastructure",
-        "Collaborated with management and product teams to define and implement successful crypto strategies and roadmaps",
-        "Strong ability to mentor and train team members and friends on best practices in software and blockchain development",
-        "Demonstrated ability to quickly learn new technologies and deliver high-quality code that exceeds client expectations."
+        "Led and developed multiple Web3 and Web2 solutions, leveraging blockchain and traditional technologies to meet project objectives.",
+        "Collaborated with management and product teams to define and implement comprehensive crypto strategies and roadmaps, aligning with business goals.",
+        "Mentored and trained 10+ junior developers on the NestJS framework and Node.js, improving team proficiency and productivity.",
+        "Optimized Google API calls, implementing efficient request strategies that resulted in a 92% reduction in billing costs while maintaining performance and functionality.",
+        "Achieved a 75% reduction in Azure egress data transfer costs through strategic optimizations, significantly lowering operational expenses.",
+        "Led a cross-functional team of developers to deliver a comprehensive software solution, improving system efficiency by 30%, utilizing Agile methodologies and technologies such as TypeScript, Solidity, and MongoDB.",
+        "Demonstrated adaptability and a quick learning curve, consistently delivering high-quality code that met or exceeded client expectations."
       ],
       footerLink: [
         {
@@ -206,11 +209,10 @@ const workExperiences = {
       desc: "Successfully automated core banking processes and improved maintenance through the use of shell scripting.",
       background: false, // set it true to use image background as card background
       descBullets: [
-        "Implemented shell script based solutions to automate core banking processes, resulting in improved maintenance and decreased manual work by 80%.",
-        "Innovatively addressed customer issues through automation, resulting in a more efficient and effective resolution process.",
-        "Experienced in integrating alerts with various platforms to enhance workload automation.",
-        "Acquired expertise in utilizing tools such as Jira Service Management and UC4 Workload automation to optimize processes.",
-        "Proven ability to effectively automate core banking processes and improve maintenance through the use of shell scripting."
+        "Streamlined core banking processes through shell script automation, leading to an 80% reduction in manual interventions and significantly enhanced system maintenance efficiency.",
+        "Addressed customer issues through automation, resulting in a more efficient and effective resolution process.",
+        "Developed and deployed automated solutions to address customer issues, resulting in a 50% faster resolution process and increased customer satisfaction.",
+        "Integrated alerts with various platforms to optimize workload automation, improving response times by 30% and reducing operational overhead."
       ],
       footerLink: [
         {
@@ -238,22 +240,8 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/oetLogo.png"),
-      projectName: "OET Applications and Data Migration",
-      date: "Jun 2023 - Present",
-      projectDesc:
-        "Heading data migration between applications using the strangler approach for a seamless shift from monolithic to microservices. Innovating migration patterns to boost data transfer efficiency.",
-      footerLink: [
-        //  you can add extra buttons here.
-        {
-          name: "OET Website",
-          url: "https://www.oet.com"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/oetLogo.png"),
       projectName: "Headless HUB",
-      date: "Mar 2023 - Present",
+      date: "Aug 2023 - Present",
       projectDesc:
         "Leading a team in transitioning from Monolith to microservices architecture for improved scalability. Developing design patterns for smooth project progression and collaborating on a robust cloud infrastructure.",
       footerLink: [
@@ -266,7 +254,22 @@ const bigProjects = {
     },
     {
       image: require("./assets/images/oetLogo.png"),
-      projectName: "OET L3 Support",
+      projectName: "OET Applications and Data Migration",
+      date: "Mar 2023 - May 2024",
+      projectDesc:
+        "Heading data migration between applications using the strangler approach for a seamless shift from monolithic to microservices. Innovating migration patterns to boost data transfer efficiency.",
+      footerLink: [
+        //  you can add extra buttons here.
+        {
+          name: "OET Website",
+          url: "https://www.oet.com"
+        }
+      ]
+    },
+
+    {
+      image: require("./assets/images/oetLogo.png"),
+      projectName: "OET Operation Streamline",
       date: "Dec 2022 - Mar 2023",
       projectDesc:
         "Led a team to streamline daily operations through essential scripts, and designed a new script for enhanced efficiency. Managed seamless code transition from a previous vendor, ensuring uninterrupted product functionality.",
