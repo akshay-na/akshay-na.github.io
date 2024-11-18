@@ -84,19 +84,6 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.facebook ? (
-        <a
-          href={socialMediaLinks.facebook}
-          className="icon-button facebook"
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={handleSocialMediaClick("facebook")}
-        >
-          <i className="fab fa-facebook-f"></i>
-          <span></span>
-        </a>
-      ) : null}
-
       {socialMediaLinks.instagram ? (
         <a
           href={socialMediaLinks.instagram}
@@ -136,28 +123,15 @@ export default function socialMedia() {
         </a>
       ) : null}
 
-      {socialMediaLinks.stackoverflow ? (
+      {socialMediaLinks.discord ? (
         <a
-          href={socialMediaLinks.stackoverflow}
-          className="icon-button stack-overflow"
+          href={socialMediaLinks.discord}
+          className="icon-button discord"
           target="_blank"
           rel="noopener noreferrer"
-          onClick={handleSocialMediaClick("stackoverflow")}
+          onClick={handleSocialMediaClick("discord")}
         >
-          <i className="fab fa-stack-overflow"></i>
-          <span></span>
-        </a>
-      ) : null}
-
-      {socialMediaLinks.kaggle ? (
-        <a
-          href={socialMediaLinks.kaggle}
-          className="icon-button kaggle"
-          target="_blank"
-          rel="noopener noreferrer"
-          onClick={handleSocialMediaClick("kaggle")}
-        >
-          <i className="fab fa-kaggle"></i>
+          <i class="fab fa-discord" style={{ color: "#4b55e0" }}></i>
           <span></span>
         </a>
       ) : null}

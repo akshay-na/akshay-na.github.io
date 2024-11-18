@@ -60,16 +60,12 @@
   background-color: $medium;
 }
 
-.stack-overflow i {
-  background-color: $stackoverflow;
-}
-
-.kaggle i {
-  background-color: $kaggle;
-}
-
 .instagram i {
   background-color: $instagram;
+}
+
+.discord i {
+  background-color: $discord;
 }
 
 /* Hover Transition */
@@ -80,8 +76,7 @@
 .linkedin i:hover,
 .facebook i:hover,
 .instagram i:hover,
-.stack-overflow i:hover,
-.kaggle i:hover,
+.discord i:hover,
 .medium i:hover {
   background-color: $textColor;
 }
