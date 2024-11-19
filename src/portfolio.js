@@ -28,7 +28,7 @@ const socialMediaLinks = {
   medium: "https://akshay-na.medium.com/",
   npm: "https://npmjs.akshay-na.in",
   instagram: "https://www.instagram.com/akshay.na.dev",
-  twitter: "https://twitter.com/akshaynal",
+  twitter: "https://twitter.com/akshay_naX",
   discord: "https://discordapp.com/users/973135624179699742",
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
