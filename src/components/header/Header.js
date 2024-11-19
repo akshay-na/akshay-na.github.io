@@ -1,15 +1,24 @@
 import React, { useContext } from "react";
+import ReactGA from "react-ga4";
 import Headroom from "react-headroom";
-import "./Header.scss";
-import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
 import StyleContext from "../../contexts/StyleContext";
 import {
-  greeting,
-  workExperiences,
-  skillsSection,
   achievementSection,
-  educationInfo
+  educationInfo,
+  greeting,
+  skillsSection,
+  workExperiences
 } from "../../portfolio";
+import ToggleSwitch from "../ToggleSwitch/ToggleSwitch";
+import "./Header.scss";
+
+const handleNavbarClick = navItem => () => {
+  ReactGA.event({
+    category: "Navigation",
+    action: `Clicked Navbar Item`,
+    label: `Navigated to ${navItem}`
+  });
+};
 
 function Header() {
   const { isDark } = useContext(StyleContext);
@@ -38,37 +47,56 @@ function Header() {
         <ul className={isDark ? "dark-menu menu" : "menu"}>
           {viewHome && (
             <li>
-              <a href="/">Home</a>
+              <a href="/" onClick={handleNavbarClick("home")}>
+                Home
+              </a>
             </li>
           )}
           {viewSkills && (
             <li>
-              <a href="#skills">Skills</a>
+              <a href="#skills" onClick={handleNavbarClick("skills")}>
+                Skills
+              </a>
             </li>
           )}
           {viewExperience && (
             <li>
-              <a href="#experience">Experience</a>
+              <a href="#experience" onClick={handleNavbarClick("experience")}>
+                Experience
+              </a>
             </li>
           )}
           {viewEducation && (
             <li>
-              <a href="#education">Education</a>
+              <a href="#education" onClick={handleNavbarClick("education")}>
+                Education
+              </a>
             </li>
           )}
           {viewAchievement && (
             <li>
-              <a href="#achievements">Achievements</a>
+              <a
+                href="#achievements"
+                onClick={handleNavbarClick("achievements")}
+              >
+                Achievements
+              </a>
             </li>
           )}
 
           <li>
-            {/* <a href="https://medium.com/@short_saga">Blogs</a> */}
-            <a href="https://blog.akshay-na.in">Blogs</a>
+            <a
+              href="https://akshay-na.medium.com"
+              onClick={handleNavbarClick("blogs")}
+            >
+              Blogs
+            </a>
           </li>
 
           <li>
-            <a href="#contact">Contact Me</a>
+            <a href="#contact" onClick={handleNavbarClick("contact_me")}>
+              Contact Me
+            </a>
           </li>
           <li>
             <a>
