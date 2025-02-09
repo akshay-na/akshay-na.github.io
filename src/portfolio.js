@@ -175,20 +175,38 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Member Of Technical Staff",
+      company: "Truworth Wellness",
+      companylogo: require("./assets/images/truworthLogo.jpeg"),
+      date: "Feb 2025 - Present",
+      desc: "Enhancing developer productivity and system scalability through best practices.",
+      background: false,
+      descBullets: [
+        "Optimizing developer tools to reduce feature turnaround time.",
+        "Refactoring code with SOLID principles for maintainability.",
+        "Implementing DevOps and CI/CD for streamlined deployments.",
+        "Architecting scalable and efficient systems."
+      ],
+      footerLink: [
+        {
+          name: "truworthwellness.com",
+          url: "https://www.truworthwellness.com/"
+        }
+      ]
+    },
+    {
       role: "Senior Software Developer",
       company: "Cyber Infrastructure",
       companylogo: require("./assets/images/cisLogo.webp"),
-      date: "January 2022 - Present",
-      desc: "Led and developed multiple Web3 and Web2 solutions, utilizing both Blockchain and Web2 technology to achieve project goals.",
-      background: false, // set it true to use image background as card background
+      date: "January 2022 - January 2025",
+      desc: "Led Web3 & Web2 projects, integrating Blockchain and traditional tech to drive innovation and efficiency.",
+      background: false,
       descBullets: [
-        "Led and developed multiple Web3 and Web2 solutions, leveraging blockchain and traditional technologies to meet project objectives.",
-        "Collaborated with management and product teams to define and implement comprehensive crypto strategies and roadmaps, aligning with business goals.",
-        "Mentored and trained 10+ junior developers on the NestJS framework and Node.js, improving team proficiency and productivity.",
-        "Optimized Google API calls, implementing efficient request strategies that resulted in a 92% reduction in billing costs while maintaining performance and functionality.",
-        "Achieved a 75% reduction in Azure egress data transfer costs through strategic optimizations, significantly lowering operational expenses.",
-        "Led a cross-functional team of developers to deliver a comprehensive software solution, improving system efficiency by 30%, utilizing Agile methodologies and technologies such as TypeScript, Solidity, and MongoDB.",
-        "Demonstrated adaptability and a quick learning curve, consistently delivering high-quality code that met or exceeded client expectations."
+        "Optimized Google API calls, reducing costs by 92% while maintaining performance.",
+        "Cut Azure egress data transfer costs by 75% through strategic optimizations.",
+        "Mentored 10+ junior developers in NestJS & Node.js, boosting team proficiency.",
+        "Enhanced system efficiency by 30% using TypeScript, Solidity, and MongoDB.",
+        "Delivered high-quality, scalable solutions aligned with business objectives."
       ],
       footerLink: [
         {
@@ -202,13 +220,12 @@ const workExperiences = {
       company: "Hexaware Technologies",
       companylogo: require("./assets/images/hexaLogo.webp"),
       date: "September 2020 - January 2022",
-      desc: "Successfully automated core banking processes and improved maintenance through the use of shell scripting.",
-      background: false, // set it true to use image background as card background
+      desc: "Automated core banking processes, reducing manual effort and improving efficiency.",
+      background: false,
       descBullets: [
-        "Streamlined core banking processes through shell script automation, leading to an 80% reduction in manual interventions and significantly enhanced system maintenance efficiency.",
-        "Addressed customer issues through automation, resulting in a more efficient and effective resolution process.",
-        "Developed and deployed automated solutions to address customer issues, resulting in a 50% faster resolution process and increased customer satisfaction.",
-        "Integrated alerts with various platforms to optimize workload automation, improving response times by 30% and reducing operational overhead."
+        "Automated banking workflows with shell scripting, cutting manual interventions by 80%.",
+        "Optimized customer issue resolution, speeding up response time by 50%.",
+        "Integrated alert systems, improving workload automation and reducing operational overhead by 30%."
       ],
       footerLink: [
         {
