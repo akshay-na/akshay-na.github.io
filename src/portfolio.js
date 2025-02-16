@@ -177,7 +177,7 @@ const workExperiences = {
     {
       role: "Member Of Technical Staff",
       company: "Truworth Wellness",
-      companylogo: require("./assets/images/truworthLogo.jpeg"),
+      companylogo: require("./assets/images/truworthLogo.webp"),
       date: "February 2025 - Present",
       desc: "Enhancing developer productivity and system scalability through best practices.",
       background: false,
