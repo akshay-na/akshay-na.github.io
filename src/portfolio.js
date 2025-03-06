@@ -176,7 +176,7 @@ const workExperiences = {
   experience: [
     {
       role: "Member Of Technical Staff",
-      company: "Truworth Wellness",
+      company: "Truworth Health Technologies Pvt Ltd",
       companylogo: require("./assets/images/truworthLogo.webp"),
       date: "February 2025 - Present",
       desc: "Enhancing developer productivity and system scalability through best practices.",
@@ -196,7 +196,7 @@ const workExperiences = {
     },
     {
       role: "Senior Software Developer",
-      company: "Cyber Infrastructure",
+      company: "Cyber Infrastructure (P) Ltd",
       companylogo: require("./assets/images/cisLogo.webp"),
       date: "January 2022 - January 2025",
       desc: "Led Web3 & Web2 projects, integrating Blockchain and traditional tech to drive innovation and efficiency.",
@@ -217,7 +217,7 @@ const workExperiences = {
     },
     {
       role: "Associate Software Engineer",
-      company: "Hexaware Technologies",
+      company: "Hexaware Technologies Limited",
       companylogo: require("./assets/images/hexaLogo.webp"),
       date: "September 2020 - January 2022",
       desc: "Automated core banking processes, reducing manual effort and improving efficiency.",
