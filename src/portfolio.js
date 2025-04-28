@@ -188,7 +188,7 @@ const workExperiences = {
       footerLink: [
         {
           name: "truworthwellness.com",
-          url: "https://www.truworthwellness.com/"
+          url: "https://www.truworthwellness.com"
         }
       ]
     },
@@ -250,11 +250,25 @@ const bigProjects = {
   subtitle: "PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
+      image: require("./assets/images/new-twc_logo.png"),
+      projectName: "Health Check Service",
+      date: "Feb 2025 - Present",
+      projectDesc:
+        "Refactored the Health Check Service legacy codebase using LLD principles to boost scalability and cut vendor integration time by 40%, while designing an OpenTelemetry-Grafana observability pipeline that reduced MTTR by 25%.",
+      footerLink: [
+        //  you can add extra buttons here.
+        {
+          name: "The Wellness Corner",
+          url: "https://www.thewellnesscorner.com"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/oetLogo.png"),
       projectName: "Headless HUB",
-      date: "Aug 2023 - Present",
+      date: "Aug 2023 - Jan 2025",
       projectDesc:
-        "Leading a team in transitioning from Monolith to microservices architecture for improved scalability. Developing design patterns for smooth project progression and collaborating on a robust cloud infrastructure.",
+        "Led a team that transitioned a monolith into a microservices architecture to boost scalability, developed design patterns that kept the project moving smoothly, and collaborated on building a robust cloud infrastructure.",
       footerLink: [
         //  you can add extra buttons here.
         {
@@ -268,7 +282,7 @@ const bigProjects = {
       projectName: "OET Applications and Data Migration",
       date: "Mar 2023 - May 2024",
       projectDesc:
-        "Heading data migration between applications using the strangler approach for a seamless shift from monolithic to microservices. Innovating migration patterns to boost data transfer efficiency.",
+        "Headed data migration between applications using the strangler approach to enable a seamless transition from monolithic to microservices architectures, and innovated migration patterns to enhance data transfer efficiency.",
       footerLink: [
         //  you can add extra buttons here.
         {
