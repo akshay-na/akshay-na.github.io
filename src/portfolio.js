@@ -41,8 +41,8 @@ const skillsSection = {
   title: "What I do",
   subTitle: "A DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    "⚡️ Architected resilient, low-latency Web 2 and Web 3 platforms—applying advanced system-design patterns and data-structures-and-algorithms principles to hit mission-critical SLAs and deepen customer trust.",
-    "⚡️ Slashed cloud spend, cut Google API charges by 92 % and Azure egress fees by 75 %—through algorithm-driven usage analytics and cost-aware system-design trade-offs, all while safeguarding performance and availability.",
+    "⚡️ Architected resilient, low-latency Web 2 and Web 3 platforms applying advanced system-design patterns and data-structures-and-algorithms principles to hit mission-critical SLAs and deepen customer trust.",
+    "⚡️ Slashed cloud spend, cut Google API charges by 92% and Azure egress fees by 75% through algorithm-driven usage analytics and cost-aware system-design trade-offs, all while safeguarding performance and availability.",
     "⚡️ Elevated team mastery, mentored engineers in NestJS, Node.js, system design, and DSA, shrinking ramp-up time and raising code-quality bars across cross-functional squads.",
     "⚡️ Automated release and ops pipelines with algorithmic orchestration, eradicating repetitive manual steps and shrinking deployment cycles from days to hours."
   ],
@@ -52,15 +52,23 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "Solidity",
-      fontAwesomeClassname: "fab fa-ethereum"
+      skillName: "TypeScript",
+      fontAwesomeClassname: "fab fa-js-square"
+    },
+    {
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "Shell",
+      skillName: "Solidity",
+      fontAwesomeClassname: "fab fa-ethereum"
+    },
+    {
+      skillName: "Shell Script",
       fontAwesomeClassname: "fab fa-linux"
     },
     {
@@ -72,20 +80,12 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
       skillName: "Mango DB",
       fontAwesomeClassname: "fab fa-envira"
     },
     {
       skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "Digital Ocean",
-      fontAwesomeClassname: "fab fa-digital-ocean"
     },
     {
       skillName: "Docker",
@@ -100,19 +100,16 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fas fa-network-wired"
     },
     {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "fab fa-js-square"
-    },
-    {
-      skillName: "Message Queue",
+      skillName: "Message Brokers",
       fontAwesomeClassname: "fas fa-exchange-alt"
     },
     {
       skillName: "Postman",
       fontAwesomeClassname: "fas fa-flask"
     },
+
     {
-      skillName: "Networking",
+      skillName: "Computer Networks",
       fontAwesomeClassname: "fas fa-project-diagram"
     }
   ],
@@ -136,7 +133,7 @@ const educationInfo = {
       ]
     },
     {
-      schoolName: "Sri Bhuvanendra College",
+      schoolName: "Sri Bhuvanendra P.U. College",
       logo: require("./assets/images/sbclogo.png"),
       subHeader: "Pre-University Course",
       duration: "September 2014 - March 2016",
