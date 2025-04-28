@@ -68,6 +68,10 @@
   background-color: $discord;
 }
 
+.cal i {
+  background-color: $cal;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -77,6 +81,7 @@
 .facebook i:hover,
 .instagram i:hover,
 .discord i:hover,
+.cal i:hover,
 .medium i:hover {
   background-color: $textColor;
 }

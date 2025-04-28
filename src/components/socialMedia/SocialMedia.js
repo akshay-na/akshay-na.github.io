@@ -135,6 +135,19 @@ export default function socialMedia() {
           <span></span>
         </a>
       ) : null}
+
+      {socialMediaLinks.cal ? (
+        <a
+          href={socialMediaLinks.cal}
+          className="icon-button cal"
+          target="_blank"
+          rel="noopener noreferrer"
+          onClick={handleSocialMediaClick("cal")}
+        >
+          <i class="	fas fa-calendar-alt"></i>
+          <span></span>
+        </a>
+      ) : null}
     </div>
   );
 }
