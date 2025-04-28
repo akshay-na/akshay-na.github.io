@@ -124,12 +124,12 @@ const educationInfo = {
     {
       schoolName: "Dr. Ambedkar Institute Of Technology",
       logo: require("./assets/images/AIT_logo.jpg"),
-      subHeader: "Bachelor of Engineering in Electronics & Communication",
+      subHeader: "Bachelor of Engineering (Electronics & Communications)",
       duration: "August 2016 - June 2020",
-      desc: "Took extra courses such as AI, Neural Network, VLSI front-end designing, ...",
+      desc: "Took extra courses such as AI, Neural Network, VLSI Design ...",
       descBullets: [
         "CGPA: 8.02",
-        "Participated in various workshops such as VLSI, Robotics, Marketing, ..."
+        "Participated in various workshops such as VLSI, Robotics, Marketing ..."
       ]
     },
     {
