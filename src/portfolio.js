@@ -41,10 +41,10 @@ const skillsSection = {
   title: "What I do",
   subTitle: "A DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
   skills: [
-    "⚡️ Expertise in leading and delivering both Web2 and Web3 solutions, leveraging blockchain and traditional technologies for optimal performance.",
-    "⚡️ Skilled in cost optimization strategies, reducing Google API billing by 92% and Azure egress data transfer costs by 75%.",
-    "⚡️ Proficient in mentoring and upskilling teams, improving proficiency in frameworks like NestJS and Node.js.",
-    "⚡️ Strong ability to streamline processes through automation, achieving significant reductions in manual interventions and operational overhead."
+    "⚡️ Architected resilient, low-latency Web 2 and Web 3 platforms—applying advanced system-design patterns and data-structures-and-algorithms principles to hit mission-critical SLAs and deepen customer trust.",
+    "⚡️ Slashed cloud spend, cut Google API charges by 92 % and Azure egress fees by 75 %—through algorithm-driven usage analytics and cost-aware system-design trade-offs, all while safeguarding performance and availability.",
+    "⚡️ Elevated team mastery, mentored engineers in NestJS, Node.js, system design, and DSA, shrinking ramp-up time and raising code-quality bars across cross-functional squads.",
+    "⚡️ Automated release and ops pipelines with algorithmic orchestration, eradicating repetitive manual steps and shrinking deployment cycles from days to hours."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
