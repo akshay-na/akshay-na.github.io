@@ -49,10 +49,50 @@ function App() {
             ]
           }
         `}</script>
+        {/* Structured Data: WebSite and BreadcrumbList */}
+        <script type="application/ld+json">{`
+          {
+            "@context": "https://schema.org",
+            "@type": "WebSite",
+            "url": "https://akshay-na.in/",
+            "name": "Akshay N A Portfolio",
+            "potentialAction": {
+              "@type": "SearchAction",
+              "target": "https://akshay-na.in/?s={search_term_string}",
+              "query-input": "required name=search_term_string"
+            }
+          }
+        `}</script>
+        <script type="application/ld+json">{`
+          {
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Home",
+                "item": "https://akshay-na.in/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": "Projects",
+                "item": "https://akshay-na.in/projects"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": "Contact",
+                "item": "https://akshay-na.in/contact"
+              }
+            ]
+          }
+        `}</script>
       </Helmet>
-      <div>
+      <main id="main-content" role="main">
         <Main />
-      </div>
+      </main>
     </>
   );
 }

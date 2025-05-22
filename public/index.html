@@ -67,6 +67,17 @@
       href="https://cdn.jsdelivr.net/gh/FortAwesome/Font-Awesome@5.15.4/css/all.min.css"
     />
 
+    <link
+      rel="preload"
+      href="/src/assets/fonts/YourFont.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="prefetch" href="/projects" as="document" />
+    <link rel="prefetch" href="/contact" as="document" />
+    <link rel="alternate" href="https://akshay-na.in/" hreflang="en" />
+
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -81,7 +92,8 @@
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
-    <!--
+    <main id="main-content" role="main">
+      <!--
       This HTML file is a template.
       If you open it directly in the browser, you will see an empty page.
 
@@ -90,6 +102,6 @@
 
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    --></main>
   </body>
 </html>
