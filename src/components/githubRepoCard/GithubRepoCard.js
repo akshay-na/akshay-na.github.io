@@ -1,6 +1,7 @@
 import React from "react";
-import "./GithubRepoCard.scss";
+import ReactGA from "react-ga4";
 import { Fade } from "react-reveal";
+import "./GithubRepoCard.scss";
 
 export default function GithubRepoCard({ repo, isDark }) {
   function openUrlInNewTab(url, name) {
@@ -8,6 +9,11 @@ export default function GithubRepoCard({ repo, isDark }) {
       console.log(`URL in ${name} is undefined`);
       return;
     }
+    ReactGA.event({
+      category: "Project",
+      action: `Clicked project card`,
+      label: name
+    });
     var win = window.open(url, "_blank");
     win.focus();
   }

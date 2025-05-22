@@ -1,4 +1,5 @@
-import React, { useState, useContext } from "react";
+import React, { useContext, useState } from "react";
+import ReactGA from "react-ga4";
 import StyleContext from "../../contexts/StyleContext";
 import "./ToggleSwitch.scss";
 
@@ -15,6 +16,11 @@ const ToggleSwitch = () => {
         onChange={() => {
           styleContext.changeTheme();
           setChecked(!isChecked);
+          ReactGA.event({
+            category: "Theme",
+            action: `Toggled theme`,
+            label: isDark ? "Light Mode" : "Dark Mode"
+          });
         }}
       />
       <span className="slider round"></span>

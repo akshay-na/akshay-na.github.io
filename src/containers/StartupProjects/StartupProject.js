@@ -1,14 +1,20 @@
 import React, { useContext } from "react";
-import "./StartupProjects.scss";
-import { bigProjects } from "../../portfolio";
+import ReactGA from "react-ga4";
 import { Fade } from "react-reveal";
 import StyleContext from "../../contexts/StyleContext";
+import { bigProjects } from "../../portfolio";
+import "./StartupProjects.scss";
 
 export default function StartupProject() {
-  function openUrlInNewTab(url) {
+  function openUrlInNewTab(url, name) {
     if (!url) {
       return;
     }
+    ReactGA.event({
+      category: "Startup Project",
+      action: `Clicked startup project card`,
+      label: name || url
+    });
     var win = window.open(url, "_blank");
     win.focus();
   }
@@ -42,6 +48,7 @@ export default function StartupProject() {
                       ? "dark-mode project-card project-card-dark"
                       : "project-card project-card-light"
                   }
+                  onClick={() => openUrlInNewTab(project.url, project.name)}
                 >
                   {project.image ? (
                     <div className="project-image">

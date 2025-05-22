@@ -1,9 +1,11 @@
-import React, { useState, useEffect, useContext, Suspense, lazy } from "react";
-import "./Project.scss";
+import React, { Suspense, lazy, useContext, useEffect, useState } from "react";
+import ReactGA from "react-ga4";
 import Button from "../../components/button/Button";
-import { openSource, socialMediaLinks } from "../../portfolio";
-import StyleContext from "../../contexts/StyleContext";
 import Loading from "../../containers/loading/Loading";
+import StyleContext from "../../contexts/StyleContext";
+import { openSource, socialMediaLinks } from "../../portfolio";
+import "./Project.scss";
+
 export default function Projects() {
   const GithubRepoCard = lazy(() =>
     import("../../components/githubRepoCard/GithubRepoCard")
@@ -30,6 +32,11 @@ export default function Projects() {
           console.error(
             `${error} (because of this error, nothing is shown in place of Projects section. Also check if Projects section has been configured)`
           );
+          ReactGA.event({
+            category: "Error",
+            action: "Failed to load projects",
+            label: error.toString()
+          });
           setrepoFunction("Error");
         });
     };

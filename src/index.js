@@ -12,6 +12,20 @@ ReactGA.send({
   page: window.location.pathname
 });
 
+// Track pageviews on hashchange and popstate (for SPA navigation)
+window.addEventListener("hashchange", () => {
+  ReactGA.send({
+    hitType: "pageview",
+    page: window.location.pathname + window.location.hash
+  });
+});
+window.addEventListener("popstate", () => {
+  ReactGA.send({
+    hitType: "pageview",
+    page: window.location.pathname + window.location.hash
+  });
+});
+
 ReactDOM.render(<App />, document.getElementById("root"));
 
 // If you want your app to work offline and load faster, you can change
