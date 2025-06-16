@@ -173,10 +173,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
+      role: "Software Engineer II",
+      company: "Helpshift Technologies Pvt Ltd",
+      companylogo: require("./assets/images/helpshift.webp"),
+      date: "June 2025 - Present",
+      desc: "Building reliable backend systems while learning Clojure.",
+      background: false,
+      descBullets: [
+        "Writing Clojure for new backend features.",
+        "Speeding up deployments by refining build and cloud setup."
+      ],
+      footerLink: [
+        {
+          name: "helpshift.com",
+          url: "https://www.helpshift.com"
+        }
+      ]
+    },
+    {
       role: "Member Of Technical Staff",
       company: "Truworth Health Technologies Pvt Ltd",
       companylogo: require("./assets/images/truworthLogo.webp"),
-      date: "February 2025 - Present",
+      date: "February 2025 - May 2025",
       desc: "Enhancing developer productivity and system scalability through best practices.",
       background: false,
       descBullets: [
