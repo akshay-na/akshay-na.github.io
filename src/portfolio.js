@@ -177,11 +177,13 @@ const workExperiences = {
       company: "Helpshift Technologies Pvt Ltd",
       companylogo: require("./assets/images/helpshift.webp"),
       date: "June 2025 - Present",
-      desc: "Building reliable backend systems while learning Clojure.",
+      desc: "Improving backend systems and developer experience through performance and workflow enhancements.",
       background: false,
       descBullets: [
-        "Writing Clojure for new backend features.",
-        "Speeding up deployments by refining build and cloud setup."
+        "Collaborate with teams to deliver client-specific features, improving UX and app functionality.",
+        "Enhance Gerrit scripts to support Git worktrees, cutting dev setup time by 30%.",
+        "Optimise backend by removing bottlenecks, reducing response times by 20%.",
+        "Lead code reviews to ensure quality and promote best practices."
       ],
       footerLink: [
         {
@@ -268,15 +270,28 @@ const bigProjects = {
   subtitle: "PROJECTS THAT I HAVE WORKED ON",
   projects: [
     {
+      image: require("./assets/images/helpshift-logo.jpg"),
+      projectName: "Enterprise Integrations Platform",
+      date: "June 2025 - Present",
+      projectDesc:
+        "Joined a new team focused on client-specific features. Contributed to UX enhancements, Git worktree automation for dev efficiency, and backend optimizations to support scalable, low-latency services.",
+      footerLink: [
+        {
+          name: "Helpshift Website",
+          url: "https://www.helpshift.com/"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/new-twc_logo.png"),
       projectName: "Health Check Service",
-      date: "Feb 2025 - Present",
+      date: "Feb 2025 - May 2025",
       projectDesc:
         "Refactored the Health Check Service legacy codebase using LLD principles to boost scalability and cut vendor integration time by 40%, while designing an OpenTelemetry-Grafana observability pipeline that reduced MTTR by 25%.",
       footerLink: [
         //  you can add extra buttons here.
         {
-          name: "The Wellness Corner",
+          name: "The Wellness Corner Website",
           url: "https://www.thewellnesscorner.com"
         }
       ]
