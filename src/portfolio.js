@@ -177,13 +177,13 @@ const workExperiences = {
       company: "Helpshift Technologies Pvt Ltd",
       companylogo: require("./assets/images/helpshift.webp"),
       date: "June 2025 - Present",
-      desc: "Improving backend systems and developer experience through performance and workflow enhancements.",
+      desc: "Building scalable backend systems, security integrations, and developer tooling for enterprise customers.",
       background: false,
       descBullets: [
-        "Collaborate with teams to deliver client-specific features, improving UX and app functionality.",
-        "Enhance Gerrit scripts to support Git worktrees, cutting dev setup time by 30%.",
-        "Optimise backend by removing bottlenecks, reducing response times by 20%.",
-        "Lead code reviews to ensure quality and promote best practices."
+        "Deliver client-specific backend features in collaboration with product and frontend teams.",
+        "Built a highly requested bulk issue export (CSV) feature with scalable and fault-tolerant backend design.",
+        "Implemented Two-Way SSL (mTLS) and OAuth for secure bot automation and external API integrations.",
+        "Improved developer productivity by enhancing Gerrit automation and Git workflows, reducing setup time by ~30%."
       ],
       footerLink: [
         {

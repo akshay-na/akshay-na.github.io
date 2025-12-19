@@ -35,8 +35,8 @@
     "check-format": "prettier -c \"./**/*.{js,css,json,scss}\""
   },
   "engines": {
-    "npm": "6.x",
-    "node": "14.x"
+    "npm": "10.x",
+    "node": "18.x"
   },
   "browserslist": {
     "production": [
