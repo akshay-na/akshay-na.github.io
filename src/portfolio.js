@@ -11,7 +11,7 @@ const greeting = {
   username: "Akshay N A",
   title: "Hi all, I'm Akshay",
   subTitle:
-    "A Senior Software Developer with 4+ years of experience in delivering high-performance software solutions and optimizing infrastructure costs. Expertise in Node.js, TypeScript, DevOps, Azure, Shell Scripting, and cloud technologies. Proven track record in leading cross-functional teams, mentoring junior developers, and deploying scalable Web3 and Web2 solutions. Accomplished in reducing billing costs by 92% through API optimizations and enhancing system performance by 30% using agile methodologies. Adept at streamlining processes and driving efficiency with automated solutions.",
+    "A Senior Software Developer with 5+ years of experience in delivering high-performance software solutions and optimizing infrastructure costs. Expertise in Node.js, TypeScript, DevOps, Azure, Shell Scripting, and cloud technologies. Proven track record in leading cross-functional teams, mentoring junior developers, and deploying scalable Web3 and Web2 solutions. Accomplished in reducing billing costs by 92% through API optimizations and enhancing system performance by 30% using agile methodologies. Adept at streamlining processes and driving efficiency with automated solutions.",
   resumeLink:
     "https://docs.google.com/document/d/1bI1du_KNfonEWy7pKNwxKI6j1BVnf1JCgx6FxcXQh8I/export?format=pdf", // Set to empty to hide the button
   resumeName: "Akshay's Resume.pdf",
@@ -128,7 +128,6 @@ const educationInfo = {
       duration: "August 2016 - June 2020",
       desc: "Took extra courses such as AI, Neural Network, VLSI Design ...",
       descBullets: [
-        "CGPA: 8.02",
         "Participated in various workshops such as VLSI, Robotics, Marketing ..."
       ]
     },
@@ -138,10 +137,7 @@ const educationInfo = {
       subHeader: "Pre-University Course",
       duration: "September 2014 - March 2016",
       desc: "Ranked top 10% in the program.",
-      descBullets: [
-        "Percentage: 93%",
-        "Major: Physics, Chemistry, Mathematics and Biology"
-      ]
+      descBullets: ["Major: Physics, Chemistry, Mathematics and Biology"]
     }
   ]
 };
