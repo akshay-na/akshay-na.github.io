@@ -8,7 +8,8 @@
   margin-bottom: 10px;
 }
 
-.icon-button i {
+.icon-button i,
+.icon-button .icon-svg {
   color: $textColorDark;
   border-radius: 2.6rem;
   cursor: pointer;
@@ -26,6 +27,18 @@
   width: 2.6rem;
   margin-bottom: 10px;
   transition: 0.2s ease-in;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+.icon-button .icon-svg {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  /* Faceted gem reads smaller than solid blob; ~0.76rem ≈ calendar glyph weight */
+  padding: 0.76rem;
+  /* Path fills are explicit solid greys — do not rely on currentColor/alpha */
+  overflow: hidden;
 }
 
 .facebook i {
@@ -68,8 +81,19 @@
   background-color: $discord;
 }
 
-.cal i {
+.cal i,
+.cal .icon-svg {
   background-color: $cal;
+}
+
+/* Monogram letterforms need more ink area than Cursor gem facets */
+.cal .icon-svg {
+  padding: 0.48rem;
+}
+
+.cursor i,
+.cursor .icon-svg {
+  background-color: $cursor;
 }
 
 /* Hover Transition */
@@ -82,7 +106,10 @@
 .instagram i:hover,
 .discord i:hover,
 .cal i:hover,
-.medium i:hover {
+.cal .icon-svg:hover,
+.medium i:hover,
+.cursor i:hover,
+.cursor .icon-svg:hover {
   background-color: $textColor;
 }
 

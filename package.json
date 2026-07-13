@@ -59,5 +59,9 @@
     "@babel/plugin-proposal-private-property-in-object": "7.21.11",
     "@iconify/react": "^3.1.0",
     "prettier": "^2.3.1"
+  },
+  "overrides": {
+    "ws@7": "7.5.11",
+    "ws@8": "8.21.0"
   }
 }
