@@ -11,7 +11,12 @@ const greeting = {
   username: "Akshay N A",
   title: "Hi all, I'm Akshay",
   subTitle:
-    "A Senior Software Developer with 5+ years of experience in delivering high-performance software solutions and optimizing infrastructure costs. Expertise in Node.js, TypeScript, DevOps, Azure, Shell Scripting, and cloud technologies. Proven track record in leading cross-functional teams, mentoring junior developers, and deploying scalable Web3 and Web2 solutions. Accomplished in reducing billing costs by 92% through API optimizations and enhancing system performance by 30% using agile methodologies. Adept at streamlining processes and driving efficiency with automated solutions.",
+    "A Senior Software Engineer with 5+ years building mission-critical, high-traffic \
+    backends across FinTech, HealthTech, and SaaS. Deep experience in Node.js, TypeScript, \
+    distributed architectures, Kubernetes, and cloud cost optimization - including up to \
+    92% API billing reduction and 75% Azure egress savings. Currently at Helpshift \
+    delivering enterprise integrations, security (mTLS/OAuth), and developer tooling \
+    while mentoring engineers and leading cross-functional delivery.",
   resumeLink:
     "https://docs.google.com/document/d/1bI1du_KNfonEWy7pKNwxKI6j1BVnf1JCgx6FxcXQh8I/export?format=pdf", // Set to empty to hide the button
   resumeName: "Akshay's Resume.pdf",
@@ -40,22 +45,25 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "A DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "SENIOR BACKEND & PLATFORM ENGINEER - SAAS · HEALTHTECH · FINTECH",
   skills: [
-    "⚡️ Architected resilient, low-latency Web 2 and Web 3 platforms applying advanced system-design patterns and data-structures-and-algorithms principles to hit mission-critical SLAs and deepen customer trust.",
-    "⚡️ Slashed cloud spend, cut Google API charges by 92% and Azure egress fees by 75% through algorithm-driven usage analytics and cost-aware system-design trade-offs, all while safeguarding performance and availability.",
-    "⚡️ Elevated team mastery, mentored engineers in NestJS, Node.js, system design, and DSA, shrinking ramp-up time and raising code-quality bars across cross-functional squads.",
-    "⚡️ Automated release and ops pipelines with algorithmic orchestration, eradicating repetitive manual steps and shrinking deployment cycles from days to hours."
+    "⚡️ Building SaaS backend and integration features at Helpshift - \
+    reservation-based auto-assignment, WebSDK rate-limiting fixes, \
+    RTO dashboard scale-out without page-performance regression, \
+    bulk CSV export, and mTLS/OAuth for secure bot automation.",
+    "⚡️ Designing resilient distributed systems on Kubernetes and cloud platforms, \
+    with observability and DevOps practices that cut MTTR and shrink deploy/image costs \
+    (HealthTech: OpenTelemetry + Grafana; CI/CD image/deploy gains).",
+    "⚡️ Driving cloud cost and reliability outcomes - up to 92% vendor API billing \
+    reduction and 75% Azure egress savings - without sacrificing performance.",
+    "⚡️ Mentoring engineers (NestJS/Node.js) and raising delivery quality across \
+    cross-functional Agile squads."
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      skillName: "TypeScript",
-      fontAwesomeClassname: "fab fa-js-square"
-    },
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
@@ -73,15 +81,7 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "Reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "Nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "Mango DB",
+      skillName: "MongoDB",
       fontAwesomeClassname: "fab fa-envira"
     },
     {
@@ -93,25 +93,24 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "Git",
-      fontAwesomeClassname: "fab fa-git"
-    },
-    {
       skillName: "Kubernetes",
       fontAwesomeClassname: "fas fa-network-wired"
     },
     {
-      skillName: "Message Brokers",
+      skillName: "Kafka",
       fontAwesomeClassname: "fas fa-exchange-alt"
     },
     {
-      skillName: "Postman",
-      fontAwesomeClassname: "fas fa-flask"
+      skillName: "Shell Script",
+      fontAwesomeClassname: "fab fa-linux"
     },
-
     {
-      skillName: "Computer Networks",
-      fontAwesomeClassname: "fas fa-project-diagram"
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git"
+    },
+    {
+      skillName: "React",
+      fontAwesomeClassname: "fab fa-react"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -149,16 +148,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
+      Stack: "Backend / Platform",
+      progressPercentage: "82%"
+    },
+    {
+      Stack: "Cloud & DevOps",
+      progressPercentage: "70%"
+    },
+    {
       Stack: "Programming",
-      progressPercentage: "88%"
-    },
-    {
-      Stack: "Backend",
-      progressPercentage: "69%"
-    },
-    {
-      Stack: "Blockchain", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      progressPercentage: "78%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,13 +173,15 @@ const workExperiences = {
       company: "Helpshift Technologies Pvt Ltd",
       companylogo: require("./assets/images/helpshift.webp"),
       date: "June 2025 - Present",
-      desc: "Building scalable backend systems, security integrations, and developer tooling for enterprise customers.",
+      desc: "Building scalable backend systems, enterprise integrations, security, and developer tooling for SaaS customers.",
       background: false,
       descBullets: [
-        "Deliver client-specific backend features in collaboration with product and frontend teams.",
-        "Built a highly requested bulk issue export (CSV) feature with scalable and fault-tolerant backend design.",
+        "Designed reservation-based auto-assignment that reduced missed assignments from ~2-5% toward near-zero.",
+        "Fixed a critical WebSDK rate-limiting bug affecting customer domains.",
+        "Scaled the RTO dashboard with zero page-performance degradation.",
+        "Built bulk issue export (CSV) with scalable, fault-tolerant backend design.",
         "Implemented Two-Way SSL (mTLS) and OAuth for secure bot automation and external API integrations.",
-        "Improved developer productivity by enhancing Gerrit automation and Git workflows, reducing setup time by ~30%."
+        "Improved Gerrit automation / Git workflows, reducing onboarding/setup time by ~30%."
       ],
       footerLink: [
         {
@@ -190,17 +191,17 @@ const workExperiences = {
       ]
     },
     {
-      role: "Member Of Technical Staff",
+      role: "Member of Technical Staff",
       company: "Truworth Health Technologies Pvt Ltd",
       companylogo: require("./assets/images/truworthLogo.webp"),
       date: "February 2025 - May 2025",
-      desc: "Enhancing developer productivity and system scalability through best practices.",
+      desc: "Improving developer productivity, legacy service scalability, CI/CD, and observability in HealthTech.",
       background: false,
       descBullets: [
-        "Optimizing developer tools to reduce feature turnaround time.",
-        "Refactoring code with SOLID principles for maintainability.",
-        "Implementing DevOps and CI/CD for streamlined deployments.",
-        "Architecting scalable and efficient systems."
+        "Improved developer tools and workflows to speed feature turnaround.",
+        "Refactored legacy Health Check Service with LLD - ~40% faster vendor integration.",
+        "Strengthened DevOps/CI/CD - ~50% smaller images, ~20% faster deploys.",
+        "Added OpenTelemetry + Grafana observability - ~25% MTTR reduction."
       ],
       footerLink: [
         {
@@ -214,14 +215,14 @@ const workExperiences = {
       company: "Cyber Infrastructure (P) Ltd",
       companylogo: require("./assets/images/cisLogo.webp"),
       date: "January 2022 - January 2025",
-      desc: "Led Web3 & Web2 projects, integrating Blockchain and traditional tech to drive innovation and efficiency.",
+      desc: "Delivered Web2 and Web3 systems on distributed Kubernetes platforms; mentored engineers; drove cloud cost optimizations.",
       background: false,
       descBullets: [
-        "Optimized Google API calls, reducing costs by 92% while maintaining performance.",
-        "Cut Azure egress data transfer costs by 75% through strategic optimizations.",
-        "Mentored 10+ junior developers in NestJS & Node.js, boosting team proficiency.",
-        "Enhanced system efficiency by 30% using TypeScript, Solidity, and MongoDB.",
-        "Delivered high-quality, scalable solutions aligned with business objectives."
+        "Optimized vendor/Google API usage - up to 92% billing reduction while maintaining performance.",
+        "Cut Azure egress costs by ~75% through targeted transfer optimizations.",
+        "Mentored 10+ junior developers in NestJS and Node.js.",
+        "Built distributed systems on Kubernetes; improved delivery efficiency ~30% with TypeScript/Solidity/MongoDB where applicable.",
+        "Partnered across Agile product/engineering to ship scalable production systems."
       ],
       footerLink: [
         {
@@ -231,16 +232,16 @@ const workExperiences = {
       ]
     },
     {
-      role: "Associate Software Engineer",
+      role: "Assoc. Software Engineer",
       company: "Hexaware Technologies Limited",
       companylogo: require("./assets/images/hexaLogo.webp"),
       date: "September 2020 - January 2022",
-      desc: "Automated core banking processes, reducing manual effort and improving efficiency.",
+      desc: "Automated core banking operations and support workflows.",
       background: false,
       descBullets: [
-        "Automated banking workflows with shell scripting, cutting manual interventions by 80%.",
-        "Optimized customer issue resolution, speeding up response time by 50%.",
-        "Integrated alert systems, improving workload automation and reducing operational overhead by 30%."
+        "Shell automation for core banking — ~80% fewer manual interventions.",
+        "Customer-issue automation - ~50% faster resolution.",
+        "Alert integrations - ~30% better response times."
       ],
       footerLink: [
         {
@@ -264,14 +265,40 @@ const openSource = {
 
 const bigProjects = {
   title: "Projects",
-  subtitle: "PROJECTS THAT I HAVE WORKED ON",
+  subtitle: "SELECTED WORK — IMPACT OVER EXPERIMENTATION",
   projects: [
     {
       image: require("./assets/images/helpshift-logo.jpg"),
-      projectName: "Enterprise Integrations Platform",
+      projectName: "Reservation Auto-Assignment & Real-Time Ops",
+      date: "Dec 2025 - Present",
+      projectDesc:
+        "Built reservation-based auto-assignment that drove missed assignments from ~2–5% toward near-zero, remediated WebSDK rate limits for customer domains, and scaled the RTO dashboard with zero page-performance degradation.",
+      footerLink: [
+        {
+          name: "Helpshift Website",
+          url: "https://www.helpshift.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/helpshift-logo.jpg"),
+      projectName: "Developer Tooling & Gerrit Automation",
       date: "June 2025 - Present",
       projectDesc:
-        "Joined a new team focused on client-specific features. Contributed to UX enhancements, Git worktree automation for dev efficiency, and backend optimizations to support scalable, low-latency services.",
+        "Built Gerrit automation and Git/dev workflows that reduced onboarding and setup time ~30%.",
+      footerLink: [
+        {
+          name: "Helpshift Website",
+          url: "https://www.helpshift.com/"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/helpshift-logo.jpg"),
+      projectName: "Enterprise Export & Secure Bot Integrations",
+      date: "June 2025 - Nov 2025",
+      projectDesc:
+        "Shipped fault-tolerant bulk issue export (CSV) and Two-Way SSL (mTLS) plus OAuth for secure bot automation and external API integrations.",
       footerLink: [
         {
           name: "Helpshift Website",
@@ -321,63 +348,6 @@ const bigProjects = {
         }
       ]
     },
-
-    {
-      image: require("./assets/images/oetLogo.png"),
-      projectName: "OET Operation Streamline",
-      date: "Dec 2022 - Mar 2023",
-      projectDesc:
-        "Led a team to streamline daily operations through essential scripts, and designed a new script for enhanced efficiency. Managed seamless code transition from a previous vendor, ensuring uninterrupted product functionality.",
-      footerLink: [
-        //  you can add extra buttons here.
-        {
-          name: "OET Website",
-          url: "https://www.oet.com"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/oetLogo.png"),
-      projectName: "HUB Decipher",
-      date: "Sept 2022 - Dec 2022",
-      projectDesc:
-        "Led a team to analyze and optimize a complex codebase, enhancing its performance and reliability. Assisted the client in reverse engineering for a seamless development environment setup.",
-      footerLink: [
-        //  you can add extra buttons here.
-        {
-          name: "OET Website",
-          url: "https://www.oet.com"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/newwealthLogo.png"),
-      projectName: "NewWealthColab NFTs & NFT Marketplace",
-      date: "May 2022 - Sept 2022",
-      projectDesc:
-        "Developed Unique Builder NFTs to provide special access to realtors. Created marketplace to trade and auction NFTs, resulting in increased liquidity and value for the assets.",
-      footerLink: [
-        //  you can add extra buttons here.
-        {
-          name: "NewWealthColab Website",
-          url: "https://www.newwealthcolab.com/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/commerja-x.jpeg"),
-      projectName: "Bitcash-CommerjaX BEP20 Token Collaboration",
-      date: "Jan 2022 - May 2022",
-      projectDesc:
-        "Developed a unique token for Commerja-X with advanced tokenomics. Introduced a 10% tax for enhanced appeal and integrated reflection rewards across three tokens for dynamic value distribution.",
-      footerLink: [
-        //  you can add extra buttons here.
-        {
-          name: "Commerja-X Website",
-          url: "https://commerja-x.com/"
-        }
-      ]
-    },
     {
       image: require("./assets/images/patelcoLogo.png"),
       projectName: "Patelco L1 Service Desk Support",
@@ -390,26 +360,6 @@ const bigProjects = {
           name: "Patelco Credit Union Website",
           url: "https://www.patelco.org/"
         }
-      ]
-    },
-    {
-      image: require("./assets/images/lmsLogo.png"),
-      projectName: "Leave Management System",
-      date: "Sept 2020 - Feb 2021",
-      projectDesc:
-        "Full-stack training project using Java and Angular, resulting in a comprehensive training platform for new developers. Built using modern technologies and best practices, the project served as a valuable tool for teaching and learning web development.",
-      footerLink: [
-        //  you can add extra buttons here.
-      ]
-    },
-    {
-      image: require("./assets/images/ecommLogo.png"),
-      projectName: "E-Commerce Website",
-      date: "Sept 2020 - Feb 2021",
-      projectDesc:
-        "Full-stack training project using .NET and Angular, resulting in a comprehensive training platform for new developers. Built using modern technologies and best practices, the project served as a valuable tool for teaching and learning web development.",
-      footerLink: [
-        //  you can add extra buttons here.
       ]
     }
   ],
@@ -427,7 +377,7 @@ const achievementSection = {
   achievementsCards: [
     {
       title: "Certified BlockChain Developer by Blockchain Council",
-      subtitle: "Certification Course.",
+      subtitle: "Professional certification (Blockchain Council).",
       image: require("./assets/images/CBD.jpg"),
       footerLink: [
         {
@@ -439,18 +389,9 @@ const achievementSection = {
     {
       title: "Machine Learning and AI workshop",
       subtitle:
-        "Participated on the Ai workshop that was hosted by the IIT Roorkee on March 2019",
+        "Participated in the AI workshop hosted by IIT Roorkee (March 2019).",
       image: require("./assets/images/AiWorkshop.jpg"),
-      footerLink: [
-        {
-          name: "Certification",
-          url: ""
-        },
-        {
-          name: "Participation",
-          url: ""
-        }
-      ]
+      footerLink: []
     }
   ],
   display: true // Set false to hide this section, defaults to true
