@@ -18,7 +18,7 @@ const greeting = {
     delivering enterprise integrations, security (mTLS/OAuth), and developer tooling \
     while mentoring engineers and leading cross-functional delivery.",
   resumeLink:
-    "https://docs.google.com/document/d/1bI1du_KNfonEWy7pKNwxKI6j1BVnf1JCgx6FxcXQh8I/export?format=pdf", // Set to empty to hide the button
+    "https://docs.google.com/document/d/1bI1du_KNfonEWy7pKNwxKI6j1BVnf1JCgx6FxcXQh8I/export?format=pdf&includes_info_params=true&cros_files=false&nded=false&tab=t.0", // Set to empty to hide the button
   resumeName: "Akshay's Resume.pdf",
   displayGreeting: true // Set false to hide this section, defaults to true
 };
